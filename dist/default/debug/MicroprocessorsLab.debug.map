@@ -6,7 +6,7 @@ Linker command line:
   --edf=C:\Program Files\Microchip\xc8\v3.10\pic\dat\20250813170317_en.msgs \
   -cs -h+dist/default/debug\MicroprocessorsLab.debug.sym \
   --cmf=dist/default/debug\MicroprocessorsLab.debug.cmf -z -Q18F87K22 \
-  -oC:\Users\ah2723\AppData\Local\Temp\xcAsuzk.0\driver_tmp_3.o \
+  -oC:\Users\ah2723\AppData\Local\Temp\xcAsda8.0\driver_tmp_3.o \
   --fixupoverflow=error -ver=XC8 PIC(R) Assembler --fixupoverflow=lstwarn \
   -Mdist/default/debug/MicroprocessorsLab.debug.map -E1 -ACODE=00h-01FFFFh \
   -ACONST=00h-01FFFFh -ASMALLCONST=01000h-010FFhx240,011000h-0110FFhx240 \
@@ -32,11 +32,11 @@ Machine type is 18F87K22
 build/default/debug/config.o
                 config                           300000   300000        E        0       4
 build/default/debug/main.o
-                code                                  0        0      184        0       0
+                code                                  0        0      148        0       0
 
 TOTAL           Name                               Link     Load   Length     Space
         CLASS   CODE           
-                code                                  0        0      184         0
+                code                                  0        0      148         0
 
         CLASS   CONST          
 
@@ -120,11 +120,11 @@ UNUSED ADDRESS RANGES
         BANK7            000700-0007FF              100
         BANK8            000800-0008FF              100
         BANK9            000900-0009FF              100
-        BIGRAM           000184-000F15              D92
+        BIGRAM           000148-000F15              DCE
         BIGSFR           000F16-000FFF               EA
-        CODE             000184-01FFFF            1FE7C
+        CODE             000148-01FFFF            1FEB8
         COMRAM           000000-00005F               60
-        CONST            000184-01FFFF            1FE7C
+        CONST            000148-01FFFF            1FEB8
         EEDATA           F00000-F003FF              400
         IDLOC            200000-200007                8
         MEDIUMCONST      001000-00FFFF             F000
@@ -138,7 +138,7 @@ UNUSED ADDRESS RANGES
 
 __H__absolute__ __absolute__ 000000  __Hcode         code         000000
 __Hconfig       config       30000E  __Hdata         data         000000
-__Hedata        edata        000000  __Hspace_0      (abs)        000184
+__Hedata        edata        000000  __Hspace_0      (abs)        000148
 __Hspace_1      (abs)        000000  __Hspace_3      (abs)        000000
 __Hspace_4      (abs)        60000E  __Hudata        udata        000000
 __Hudata_acs    udata_acs    000000  __Hudata_bank0  udata_bank0  000000

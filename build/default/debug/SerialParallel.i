@@ -1,10 +1,10 @@
-# 1 "main.s"
+# 1 "SerialParallel.s"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 296 "<built-in>" 3
 # 1 "<command line>" 1
 # 1 "<built-in>" 2
-# 1 "main.s" 2
+# 1 "SerialParallel.s" 2
 # 1 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include/xc.inc" 1 3
 
 
@@ -10959,59 +10959,55 @@ stk_offset SET 0
 auto_size SET 0
 ENDM
 # 6 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include/xc.inc" 2 3
-# 2 "main.s" 2
+# 2 "SerialParallel.s" 2
 
 psect code, abs
 
 main:
  org 0x0
- goto start
+ goto SPI_Master_Init
  org 0x100
 
+SPI_MasterInit:
+    bcf ((SSP2STAT) and 0FFh), 6, a
+    movlw (SSP2CON1_SSPEN_MASK)|(SSPCON1_CKP_MASK)|(SSP2CON1_SSPM1_MASK)
+    movwf SSP2CON1, A
+    bcf TRISD, PORTD_SDO2_POSN, A
+    bcf TRISD, PORTD_SCK2_POSN, A
+    return
+
+myTable:
+ db 0x01, 0x01, 0x02, 0x03, 0x05, 0x08, 0x0D, 0x15, 0x22, 0x37, 0x59, 0x90
+ db 0xE9
+ myArray EQU 0x400 ; Address in RAM for data
+ listCounter EQU 0x0D ; Address of list counter variable
+ align 2 ; ensure alignment of subsequent instructions
+
 start:
- movlw 0x0
- movwf TRISJ, A ; signal input from port J
- movwf TRISC, A ; clock input from port C
- movlw 0x01 ; set W to 0x01
- movwf PORTC ; set port C (clock) to 0x01
- movlw 0x0
- bra test
+ lfsr 0, myArray ; Load FSR0 with address in RAM
+ movlw low highword(myTable) ; address of data in PM
+ movwf TBLPTRU, A ; load upper bits to TBLPTRU
+ movlw high(myTable) ; address of data in PM
+ movwf TBLPTRH, A ; load high byte to TBLPTRH
+ movlw low(myTable) ; address of data in PM
+ movwf TBLPTRL, A ; load low byte to TBLPTRL
+ movlw 13 ; 13 bytes to read
+ movwf listCounter, A ; our counter register for running through the list
 
 loop:
- movff 0x06, PORTJ ; output the current count value to port J
- movlw 0x00 ; set W to 0x00
- movwf PORTC ; set clock to 0x00
- call delayTimer ; delay to stretch signal
- movlw 0x01 ; set W to 0x01
- movwf PORTC ; set port C (clock) to 0x01
- incf 0x06, W, A ; increment value of 0x06 by 1 and move it to W
+ tblrd*+ ; move one byte from PM to TABLAT, increment TBLPRT
+ movff TABLAT, W
+ call SPI_MasterTransmit
+ movff TABLAT, POSTINC0 ; move read data from TABLAT to (FSR0), increment FSR0
+ decfsz listCounter, A ; count down to zero
+ bra loop ; keep going until finished
 
-test:
- movwf 0x06, A ; move value from W into 0x06
- movlw 0x70 ; set W to the max value - 1 we want to count to
- cpfsgt 0x06, A ; compare 0x06 to W and skip the next line if 0x06 is greater than W
- bra loop ; if end condition not fulfilled, keep looping
- call countdown ; if end condition fulfilled, start counting down
-
-countdown:
- movff 0x06, PORTJ ; output the current count value to port J
- movlw 0x00 ; set W to 0x00
- movwf PORTC ; set clock to 0x00
- call delayTimer ; delay to stretch signal
- movlw 0x01 ; set W to 0x01
- movwf PORTC ; set port C (clock) to 0x01
- decf 0x06, W, A ; decrement value of 0x06 by 1 and move it to W
- movwf 0x06, A ; move value from W into 0x06
- movlw 0x01 ; set W to the min value + 1 we want to count to
- cpfslt 0x06, A ; compare 0x06 to W and skip the next line if 0x06 is smaller than W
- bra countdown ; loop back over countdown
- goto loop ; start counting up again
-
-delayTimer:
- movlw 0x10 ; set delay length (countdown delay)
- movwf 0x20 ; prepare 0x20 to be used as a countdown
-dLoop: decfsz 0x20, f, A ; decrement 0x20 value by 1, skip if zero
- bc dLoop ; repeat dLoop
- return ; return to the point delayTimer was called from
+SPI_MasterTransmit:
+    movwf SSP2BUF, A
+Wait_Transmit:
+    btfss PIR2, 5
+    bra Wait_Transmit
+    bcf PIR2, 5
+    return
 
 end main

@@ -19,7 +19,8 @@
                    projectFiles="true">
       <itemPath>config.s</itemPath>
       <itemPath>LEDSequencedisplay.s</itemPath>
-      <itemPath>main.s</itemPath>
+      <itemPath>DACSignal.s</itemPath>
+      <itemPath>SerialParallel.s</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
@@ -68,7 +69,15 @@
         <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
         <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
       </makeCustomizationType>
+      <item path="DACSignal.s" ex="true" overriding="false">
+      </item>
       <item path="LEDSequencedisplay.s" ex="true" overriding="false">
+        <pic-as-assembler>
+        </pic-as-assembler>
+        <pic-as-global>
+        </pic-as-global>
+        <pic-as-linker>
+        </pic-as-linker>
       </item>
       <Simulator>
         <property key="codecoverage.enabled" value="Disable"/>

@@ -11,10 +11,10 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$build/default/debug/config.o
-config CONFIG 4 300000 300000 E 1 1
-$build/default/debug/main.o
+$build/default/production/main.o
 code CODE 0 0 0 154 1 2
+$build/default/production/config.o
+config CONFIG 4 300000 300000 E 1 1
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
 # is described on a single line as follows:
@@ -63,7 +63,7 @@ MEDIUMCONST 11000-1FFFF 1
 # are in ascending order of addresses.
 # All other numeric values are in decimal.
 %LINETAB
-$build/default/debug/main.o
+$build/default/production/main.o
 0 code CODE >7:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
 100 code CODE >11:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
 102 code CODE >12:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
@@ -134,7 +134,7 @@ __Hudata_bank12 0 0 ABS 0 udata_bank12 -
 __Hudata_bank13 0 0 ABS 0 udata_bank13 -
 __Hudata_bank14 0 0 ABS 0 udata_bank14 -
 __Hudata_bank15 0 0 ABS 0 udata_bank15 -
-isa$xinst 0 0 ABS 0 - build/default/debug/config.o
+isa$xinst 0 0 ABS 0 - build/default/production/config.o
 __Hedata 0 0 ABS 0 edata -
 __Hudata 0 0 ABS 0 udata -
 __Hconfig 30000E 0 CONFIG 4 config -
@@ -154,7 +154,7 @@ __Ludata_bank13 0 0 ABS 0 udata_bank13 -
 __Ludata_bank14 0 0 ABS 0 udata_bank14 -
 __Ludata_bank15 0 0 ABS 0 udata_bank15 -
 __Lconfig 0 0 CONFIG 4 config -
-isa$std 1 0 ABS 0 - build/default/debug/config.o
+isa$std 1 0 ABS 0 - build/default/production/config.o
 __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -
 __Lspace_3 0 0 ABS 0 - -

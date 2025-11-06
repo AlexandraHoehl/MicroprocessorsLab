@@ -59,7 +59,7 @@ __Hudata_bank9 0 0 ABS 0
 __Ludata_bank9 0 0 ABS 0
 %segments
 %locals
-build/default/debug/main.o
+build/default/production/main.o
 main.s
 7 0 0 CODE 0
 11 100 0 CODE 0

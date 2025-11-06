@@ -51,17 +51,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=config.s main.s
+SOURCEFILES_QUOTED_IF_SPACED=config.s SerialParallel.s
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/config.o ${OBJECTDIR}/main.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/config.o.d ${OBJECTDIR}/main.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/config.o ${OBJECTDIR}/SerialParallel.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/config.o.d ${OBJECTDIR}/SerialParallel.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/config.o ${OBJECTDIR}/main.o
+OBJECTFILES=${OBJECTDIR}/config.o ${OBJECTDIR}/SerialParallel.o
 
 # Source Files
-SOURCEFILES=config.s main.s
+SOURCEFILES=config.s SerialParallel.s
 
 
 
@@ -97,12 +97,12 @@ ${OBJECTDIR}/config.o: config.s  nbproject/Makefile-${CND_CONF}.mk
 	config.s \
 	 -D__DEBUG=1   -mdfp="${DFP_DIR}/xc8"  -misa=std -msummary=+mem,-psect,-class,-hex,-file,-sha1,-sha256,-xml,-xmlfull -fmax-errors=20 -mwarn=0 -xassembler-with-cpp
 	
-${OBJECTDIR}/main.o: main.s  nbproject/Makefile-${CND_CONF}.mk 
+${OBJECTDIR}/SerialParallel.o: SerialParallel.s  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/main.o 
+	@${RM} ${OBJECTDIR}/SerialParallel.o 
 	${MP_AS} -mcpu=PIC18F87K22 -c \
-	-o ${OBJECTDIR}/main.o \
-	main.s \
+	-o ${OBJECTDIR}/SerialParallel.o \
+	SerialParallel.s \
 	 -D__DEBUG=1   -mdfp="${DFP_DIR}/xc8"  -misa=std -msummary=+mem,-psect,-class,-hex,-file,-sha1,-sha256,-xml,-xmlfull -fmax-errors=20 -mwarn=0 -xassembler-with-cpp
 	
 else
@@ -114,12 +114,12 @@ ${OBJECTDIR}/config.o: config.s  nbproject/Makefile-${CND_CONF}.mk
 	config.s \
 	  -mdfp="${DFP_DIR}/xc8"  -misa=std -msummary=+mem,-psect,-class,-hex,-file,-sha1,-sha256,-xml,-xmlfull -fmax-errors=20 -mwarn=0 -xassembler-with-cpp
 	
-${OBJECTDIR}/main.o: main.s  nbproject/Makefile-${CND_CONF}.mk 
+${OBJECTDIR}/SerialParallel.o: SerialParallel.s  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/main.o 
+	@${RM} ${OBJECTDIR}/SerialParallel.o 
 	${MP_AS} -mcpu=PIC18F87K22 -c \
-	-o ${OBJECTDIR}/main.o \
-	main.s \
+	-o ${OBJECTDIR}/SerialParallel.o \
+	SerialParallel.s \
 	  -mdfp="${DFP_DIR}/xc8"  -misa=std -msummary=+mem,-psect,-class,-hex,-file,-sha1,-sha256,-xml,-xmlfull -fmax-errors=20 -mwarn=0 -xassembler-with-cpp
 	
 endif

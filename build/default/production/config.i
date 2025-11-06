@@ -1,10 +1,14 @@
-# 1 "main.s"
+# 1 "config.s"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 296 "<built-in>" 3
 # 1 "<command line>" 1
 # 1 "<built-in>" 2
-# 1 "main.s" 2
+# 1 "config.s" 2
+; PIC18F87K22 Configuration Bit Settings
+
+; Assembly source line config statements
+
 # 1 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include/xc.inc" 1 3
 
 
@@ -10959,59 +10963,87 @@ stk_offset SET 0
 auto_size SET 0
 ENDM
 # 6 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include/xc.inc" 2 3
-# 2 "main.s" 2
+# 6 "config.s" 2
 
-psect code, abs
+; CONFIG1L
+  CONFIG RETEN = ON ; VREG Sleep Enable bit (Enabled)
+  CONFIG INTOSCSEL = HIGH ; LF-INTOSC Low-power Enable bit (LF-INTOSC in High-power mode during Sleep)
+  CONFIG SOSCSEL = DIG ; SOSC Power Selection and mode Configuration bits (Digital IO selected)
+  CONFIG XINST = OFF ; Extended Instruction Set (Disabled)
 
-main:
- org 0x0
- goto start
- org 0x100
+; CONFIG1H
+  CONFIG FOSC = HS1 ; Oscillator (HS oscillator (Medium power, 4 MHz - 16 MHz))
+  CONFIG PLLCFG = ON ; PLL x4 Enable bit (Enabled)
+  CONFIG FCMEN = OFF ; Fail-Safe Clock Monitor (Disabled)
+  CONFIG IESO = OFF ; Internal External Oscillator Switch Over Mode (Disabled)
 
-start:
- movlw 0x0
- movwf TRISJ, A ; signal input from port J
- movwf TRISC, A ; clock input from port C
- movlw 0x01 ; set W to 0x01
- movwf PORTC ; set port C (clock) to 0x01
- movlw 0x0
- bra test
+; CONFIG2L
+  CONFIG PWRTEN = OFF ; Power Up Timer (Disabled)
+  CONFIG BOREN = SBORDIS ; Brown Out Detect (Enabled in hardware, ((RCON) and 0FFh), 6, a disabled)
+  CONFIG BORV = 3 ; Brown-out Reset Voltage bits (1.8V)
+  CONFIG BORPWR = ZPBORMV ; BORMV Power level (ZPBORMV instead of BORMV is selected)
 
-loop:
- movff 0x06, PORTJ ; output the current count value to port J
- movlw 0x00 ; set W to 0x00
- movwf PORTC ; set clock to 0x00
- call delayTimer ; delay to stretch signal
- movlw 0x01 ; set W to 0x01
- movwf PORTC ; set port C (clock) to 0x01
- incf 0x06, W, A ; increment value of 0x06 by 1 and move it to W
+; CONFIG2H
+  CONFIG WDTEN = OFF ; Watchdog Timer (WDT disabled in hardware and software)
+  CONFIG WDTPS = 1048576 ; Watchdog Postscaler (1:1048576)
 
-test:
- movwf 0x06, A ; move value from W into 0x06
- movlw 0x70 ; set W to the max value - 1 we want to count to
- cpfsgt 0x06, A ; compare 0x06 to W and skip the next line if 0x06 is greater than W
- bra loop ; if end condition not fulfilled, keep looping
- call countdown ; if end condition fulfilled, start counting down
+; CONFIG3L
+  CONFIG RTCOSC = SOSCREF ; ((PORTG) and 0FFh), 4, a Clock Select (((PORTG) and 0FFh), 4, a uses SOSC)
+  CONFIG EASHFT = ON ; External Address Shift bit (Address Shifting enabled)
+  CONFIG ABW = MM ; Address Bus Width Select bits (8-bit address bus)
+  CONFIG BW = 16 ; Data Bus Width (16-bit external bus mode)
+  CONFIG WAIT = OFF ; External Bus Wait (Disabled)
 
-countdown:
- movff 0x06, PORTJ ; output the current count value to port J
- movlw 0x00 ; set W to 0x00
- movwf PORTC ; set clock to 0x00
- call delayTimer ; delay to stretch signal
- movlw 0x01 ; set W to 0x01
- movwf PORTC ; set port C (clock) to 0x01
- decf 0x06, W, A ; decrement value of 0x06 by 1 and move it to W
- movwf 0x06, A ; move value from W into 0x06
- movlw 0x01 ; set W to the min value + 1 we want to count to
- cpfslt 0x06, A ; compare 0x06 to W and skip the next line if 0x06 is smaller than W
- bra countdown ; loop back over countdown
- goto loop ; start counting up again
+; CONFIG3H
+  CONFIG CCP2MX = PORTC ; ((PORTC) and 0FFh), 1, a Mux (((PORTC) and 0FFh), 1, a)
+  CONFIG ECCPMX = PORTE ; ECCP Mux (Enhanced ((PORTC) and 0FFh), 2, a/3 [((PORTE) and 0FFh), 6, a/((PORTE) and 0FFh), 5, a/((PORTE) and 0FFh), 4, a/((PORTE) and 0FFh), 3, a] muxed with ((PORTE) and 0FFh), 6, a/((PORTE) and 0FFh), 5, a/((PORTE) and 0FFh), 4, a/((PORTE) and 0FFh), 3, a)
+  CONFIG MSSPMSK = 1 ; MSSP address masking (7 Bit address masking mode)
+  CONFIG MCLRE = ON ; Master Clear Enable (MCLR Enabled, ((PORTG) and 0FFh), 5, a Disabled)
 
-delayTimer:
- movlw 0x10 ; set delay length (countdown delay)
- movwf 0x20 ; prepare 0x20 to be used as a countdown
-dLoop: decfsz 0x20, f, A ; decrement 0x20 value by 1, skip if zero
- bc dLoop ; repeat dLoop
- return ; return to the point delayTimer was called from
+; CONFIG4L
+  CONFIG STVREN = ON ; Stack Overflow Reset (Enabled)
+  CONFIG BBSIZ = BB2K ; Boot Block Size (2K word Boot Block size)
 
-end main
+; CONFIG5L
+  CONFIG CP0 = OFF ; Code Protect 00800-03FFF (Disabled)
+  CONFIG CP1 = OFF ; Code Protect 04000-07FFF (Disabled)
+  CONFIG CP2 = OFF ; Code Protect 08000-0BFFF (Disabled)
+  CONFIG CP3 = OFF ; Code Protect 0C000-0FFFF (Disabled)
+  CONFIG CP4 = OFF ; Code Protect 10000-13FFF (Disabled)
+  CONFIG CP5 = OFF ; Code Protect 14000-17FFF (Disabled)
+  CONFIG CP6 = OFF ; Code Protect 18000-1BFFF (Disabled)
+  CONFIG CP7 = OFF ; Code Protect 1C000-1FFFF (Disabled)
+
+; CONFIG5H
+  CONFIG CPB = OFF ; Code Protect Boot (Disabled)
+  CONFIG CPD = OFF ; Data EE Read Protect (Disabled)
+
+; CONFIG6L
+  CONFIG WRT0 = OFF ; Table Write Protect 00800-03FFF (Disabled)
+  CONFIG WRT1 = OFF ; Table Write Protect 04000-07FFF (Disabled)
+  CONFIG WRT2 = OFF ; Table Write Protect 08000-0BFFF (Disabled)
+  CONFIG WRT3 = OFF ; Table Write Protect 0C000-0FFFF (Disabled)
+  CONFIG WRT4 = OFF ; Table Write Protect 10000-13FFF (Disabled)
+  CONFIG WRT5 = OFF ; Table Write Protect 14000-17FFF (Disabled)
+  CONFIG WRT6 = OFF ; Table Write Protect 18000-1BFFF (Disabled)
+  CONFIG WRT7 = OFF ; Table Write Protect 1C000-1FFFF (Disabled)
+
+; CONFIG6H
+  CONFIG WRTC = OFF ; Config. Write Protect (Disabled)
+  CONFIG WRTB = OFF ; Table Write Protect Boot (Disabled)
+  CONFIG WRTD = OFF ; Data EE Write Protect (Disabled)
+
+; CONFIG7L
+  CONFIG EBRT0 = OFF ; Table Read Protect 00800-03FFF (Disabled)
+  CONFIG EBRT1 = OFF ; Table Read Protect 04000-07FFF (Disabled)
+  CONFIG EBRT2 = OFF ; Table Read Protect 08000-0BFFF (Disabled)
+  CONFIG EBRT3 = OFF ; Table Read Protect 0C000-0FFFF (Disabled)
+  CONFIG EBRT4 = OFF ; Table Read Protect 10000-13FFF (Disabled)
+  CONFIG EBRT5 = OFF ; Table Read Protect 14000-17FFF (Disabled)
+  CONFIG EBRT6 = OFF ; Table Read Protect 18000-1BFFF (Disabled)
+  CONFIG EBRT7 = OFF ; Table Read Protect 1C000-1FFFF (Disabled)
+
+; CONFIG7H
+  CONFIG EBRTB = OFF ; Table Read Protect Boot (Disabled)
+
+  end

@@ -10988,7 +10988,7 @@ loop:
 
 test:
  movwf 0x06, A ; move value from W into 0x06
- movlw 0x70 ; set W to the max value - 1 we want to count to
+ movlw 0xFE ; set W to the max value - 1 we want to count to
  cpfsgt 0x06, A ; compare 0x06 to W and skip the next line if 0x06 is greater than W
  bra loop ; if end condition not fulfilled, keep looping
  call countdown ; if end condition fulfilled, start counting down
@@ -11008,7 +11008,7 @@ countdown:
  goto loop ; start counting up again
 
 delayTimer:
- movlw 0x10 ; set delay length (countdown delay)
+ movlw 0xAA ; set delay length (countdown delay)
  movwf 0x20 ; prepare 0x20 to be used as a countdown
 dLoop: decfsz 0x20, f, A ; decrement 0x20 value by 1, skip if zero
  bc dLoop ; repeat dLoop

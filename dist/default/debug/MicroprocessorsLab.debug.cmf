@@ -13,8 +13,8 @@
 %PSECTS
 $build/default/debug/config.o
 config CONFIG 4 300000 300000 E 1 1
-$build/default/debug/main.o
-code CODE 0 0 0 154 1 2
+$build/default/debug/SerialParallel.o
+code CODE 0 0 0 16E 1 2
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
 # is described on a single line as follows:
@@ -33,18 +33,18 @@ BANK6 600-6FF 1
 BANK7 700-7FF 1
 BANK8 800-8FF 1
 BANK9 900-9FF 1
-CONST 154-1FFFF 1
+CONST 16E-1FFFF 1
 IDLOC 200000-200007 1
 SMALLCONST 1000-FFFF 1
 SMALLCONST 11000-1FFFF 1
-CODE 154-1FFFF 1
+CODE 16E-1FFFF 1
 BANK10 A00-AFF 1
 BANK11 B00-BFF 1
 BANK12 C00-CFF 1
 BANK13 D00-DFF 1
 BANK14 E00-EFF 1
 BANK15 F00-F15 1
-BIGRAM 154-F15 1
+BIGRAM 16E-F15 1
 BIGSFR F16-FFF 1
 COMRAM 0-5F 1
 EEDATA F00000-F003FF 1
@@ -63,44 +63,49 @@ MEDIUMCONST 11000-1FFFF 1
 # are in ascending order of addresses.
 # All other numeric values are in decimal.
 %LINETAB
-$build/default/debug/main.o
-0 code CODE >7:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-100 code CODE >11:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-102 code CODE >12:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-104 code CODE >13:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-106 code CODE >14:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-108 code CODE >15:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-10A code CODE >16:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-10C code CODE >17:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-10E code CODE >20:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-112 code CODE >21:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-114 code CODE >22:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-116 code CODE >23:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-11A code CODE >24:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-11C code CODE >25:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-11E code CODE >26:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-120 code CODE >29:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-122 code CODE >30:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-124 code CODE >31:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-126 code CODE >32:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-128 code CODE >33:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-12C code CODE >36:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-130 code CODE >37:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-132 code CODE >38:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-134 code CODE >39:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-138 code CODE >40:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-13A code CODE >41:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-13C code CODE >42:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-13E code CODE >43:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-140 code CODE >44:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-142 code CODE >45:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-144 code CODE >46:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-146 code CODE >47:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-14A code CODE >50:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-14C code CODE >51:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-14E code CODE >52:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-150 code CODE >53:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
-152 code CODE >54:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\main.s
+$build/default/debug/SerialParallel.o
+0 code CODE >7:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+100 code CODE >11:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+102 code CODE >12:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+104 code CODE >13:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+106 code CODE >14:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+108 code CODE >15:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+10A code CODE >18:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+116 code CODE >24:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+11A code CODE >25:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+11C code CODE >26:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+11E code CODE >27:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+120 code CODE >28:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+122 code CODE >29:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+124 code CODE >30:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+126 code CODE >31:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+128 code CODE >32:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+12A code CODE >35:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+12E code CODE >36:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+132 code CODE >37:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+136 code CODE >38:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+13A code CODE >39:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+13E code CODE >40:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+142 code CODE >41:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+144 code CODE >42:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+146 code CODE >43:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+14A code CODE >44:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+14E code CODE >45:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+150 code CODE >46:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+152 code CODE >49:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+154 code CODE >51:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+156 code CODE >52:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+158 code CODE >53:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+15A code CODE >54:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+15C code CODE >58:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+15E code CODE >59:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+160 code CODE >60:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+162 code CODE >61:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+164 code CODE >62:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+166 code CODE >63:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+168 code CODE >64:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+16A code CODE >66:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
+16C code CODE >67:C:\Users\ah2723\OneDrive - Imperial College London\Labs\Microprocessors\MicroprocessorsLab\SerialParallel.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -113,7 +118,7 @@ $build/default/debug/main.o
 # was defined in a psect then <psect> will be "-". File-name
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
-__Hspace_0 154 0 ABS 0 - -
+__Hspace_0 16E 0 ABS 0 - -
 __Hspace_1 0 0 ABS 0 - -
 __Hspace_3 0 0 ABS 0 - -
 __Hspace_4 60000E 0 ABS 0 - -

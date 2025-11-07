@@ -1,10 +1,10 @@
-# 1 "SerialParallel.s"
+# 1 "UART.s"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 296 "<built-in>" 3
 # 1 "<command line>" 1
 # 1 "<built-in>" 2
-# 1 "SerialParallel.s" 2
+# 1 "UART.s" 2
 # 1 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include/xc.inc" 1 3
 
 
@@ -10959,72 +10959,37 @@ stk_offset SET 0
 auto_size SET 0
 ENDM
 # 6 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include/xc.inc" 2 3
-# 2 "SerialParallel.s" 2
+# 2 "UART.s" 2
 
-psect code, abs
+global UART_Setup, UART_Transmit_Message
 
-main:
- org 0x0
- goto SPI_MasterInit
- org 0x100
+psect udata_acs ; reserve data space in access ram
+UART_counter: ds 1 ; reserve 1 byte for variable UART_counter
 
-SPI_MasterInit:
-    bcf ((SSP2STAT) and 0FFh), 6, a
-    movlw (SSP2CON1_SSPEN_MASK)|(SSP2CON1_CKP_MASK)|(SSP2CON1_SSPM1_MASK)
-    movwf SSP2CON1, A
-    bcf TRISD, PORTD_SDO2_POSN, A
-    bcf TRISD, PORTD_SCK2_POSN, A
-
-myTable:
- db 0x01, 0x01, 0x02, 0x03, 0x05, 0x08, 0x0D, 0x15, 0x22, 0x37, 0x59, 0x90
- myArray EQU 0x400 ; Address in RAM for data
- listCounter EQU 0x0D ; Address of list counter variable
- align 2
-
-start:
- lfsr 0, myArray ; Load FSR0 with address in RAM
- movlw low highword(myTable) ; address of data in PM
- movwf TBLPTRU, A ; load upper bits to TBLPTRU
- movlw high(myTable) ; address of data in PM
- movwf TBLPTRH, A ; load high byte to TBLPTRH
- movlw low(myTable) ; address of data in PM
- movwf TBLPTRL, A ; load low byte to TBLPTRL
- movlw 12 ; 13 bytes to read
- movwf listCounter, A ; our counter register for running through the list
-
-loop:
- call delayTimer
- call delayTimer
- call delayTimer
- call delayTimer
- call delayTimer
- call delayTimer
- tblrd*+ ; move one byte from PM to TABLAT, increment TBLPRT
- movf TABLAT, W, A
- call SPI_MasterTransmit
- movff TABLAT, POSTINC0 ; move read data from TABLAT to (FSR0), increment FSR0
- decfsz listCounter, A ; count down to zero
- bra loop ; keep going until finished
-
-SPI_MasterTransmit:
-    movwf SSP2BUF, A
-Wait_Transmit:
-    btfss PIR2, 5, A
-    bra Wait_Transmit
-    bcf PIR2, 5, A
+psect uart_code,class=CODE
+UART_Setup:
+    bsf ((RCSTA1) and 0FFh), 7, a ; enable
+    bcf ((TXSTA1) and 0FFh), 4, a ; synchronous
+    bcf ((TXSTA1) and 0FFh), 2, a ; slow speed
+    bsf ((TXSTA1) and 0FFh), 5, a ; enable transmit
+    bcf ((BAUDCON1) and 0FFh), 3, a ; 8-bit generator only
+    movlw 103 ; gives 9600 Baud rate (actually 9615)
+    movwf SPBRG1, A ; set baud rate
+    bsf TRISC, PORTC_TX1_POSN, A ; ((PORTC) and 0FFh), 6, a pin is output on ((PORTC) and 0FFh), 6, a pin
+     ; must set ((TRISC) and 0FFh), 6, a to 1
     return
 
+UART_Transmit_Message: ; Message stored at FSR2, length stored in W
+    movwf UART_counter, A
+UART_Loop_message:
+    movf POSTINC2, W, A
+    call UART_Transmit_Byte
+    decfsz UART_counter, A
+    bra UART_Loop_message
+    return
 
-delayTimer:
- movlw high(0xFFFF)
- movwf 0x20, A ; FR 0x10
- movlw low(0xFFFF)
- movwf 0x21, A
- movlw 0x00 ; W=0
-dLoop: decf 0x21, f, A
- subwfb 0x20, f, A
- ;call delayTimer2
- bc dLoop
- return
-# 81 "SerialParallel.s"
-end main
+UART_Transmit_Byte: ; Transmits byte stored in W
+    btfss ((PIR1) and 0FFh), 4, a ; ((PIR1) and 0FFh), 4, a is set when TXREG1 is empty
+    bra UART_Transmit_Byte
+    movwf TXREG1, A
+    return

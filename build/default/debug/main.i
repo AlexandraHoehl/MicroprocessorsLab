@@ -10961,57 +10961,60 @@ ENDM
 # 6 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include/xc.inc" 2 3
 # 2 "main.s" 2
 
+extrn UART_Setup, UART_Transmit_Message ; external subroutines
+
+psect udata_acs ; reserve data space in access ram
+counter: ds 1 ; reserve one byte for a counter variable
+delay_count:ds 1 ; reserve one byte for counter in the delay routine
+
+psect udata_bank4 ; reserve data anywhere in RAM (here at 0x400)
+myArray: ds 0x80 ; reserve 128 bytes for message data
+
+psect data
+ ; ******* myTable, data in programme memory, and its length *****
+myTable:
+ db 'H','e','l','l','o',' ','W','o','r','l','d','!',0x0a
+ db 'H','e','l','l','o',' ','W','o','r','l','d',' '
+ db '2',' ','e','l','e','c','t','r','i','c',' ','b'
+ db 'o','o','g','a','l','o','o','!',0x0a
+     ; message, plus carriage return
+ myTable_l EQU 46 ; length of data
+ align 2
+
 psect code, abs
+rst: org 0x0
+  goto setup
 
-main:
- org 0x0
+ ; ******* Programme FLASH read Setup Code ***********************
+setup: bcf ((EECON1) and 0FFh), 6, a ; point to Flash program memory
+ bsf ((EECON1) and 0FFh), 7, a ; access Flash program memory
+ call UART_Setup ; setup UART
  goto start
- org 0x100
 
-start:
- movlw 0x0
- movwf TRISJ, A ; signal input from port J
- movwf TRISC, A ; clock input from port C
- movlw 0x01 ; set W to 0x01
- movwf PORTC ; set port C (clock) to 0x01
- movlw 0x0
- bra test
+ ; ******* Main programme ****************************************
+start: lfsr 0, myArray ; Load FSR0 with address in RAM
+ movlw low highword(myTable) ; address of data in PM
+ movwf TBLPTRU, A ; load upper bits to TBLPTRU
+ movlw high(myTable) ; address of data in PM
+ movwf TBLPTRH, A ; load high byte to TBLPTRH
+ movlw low(myTable) ; address of data in PM
+ movwf TBLPTRL, A ; load low byte to TBLPTRL
+ movlw myTable_l ; bytes to read
+ movwf counter, A ; our counter register
+loop: tblrd*+ ; one byte from PM to TABLAT, increment TBLPRT
+ movff TABLAT, POSTINC0; move data from TABLAT to (FSR0), inc FSR0
+ decfsz counter, A ; count down to zero
+ bra loop ; keep going until finished
 
-loop:
- movff 0x06, PORTJ ; output the current count value to port J
- movlw 0x00 ; set W to 0x00
- movwf PORTC ; set clock to 0x00
- call delayTimer ; delay to stretch signal
- movlw 0x01 ; set W to 0x01
- movwf PORTC ; set port C (clock) to 0x01
- incf 0x06, W, A ; increment value of 0x06 by 1 and move it to W
+ movlw myTable_l ; output message to UART
+ lfsr 2, myArray
+ call UART_Transmit_Message
 
-test:
- movwf 0x06, A ; move value from W into 0x06
- movlw 0x70 ; set W to the max value - 1 we want to count to
- cpfsgt 0x06, A ; compare 0x06 to W and skip the next line if 0x06 is greater than W
- bra loop ; if end condition not fulfilled, keep looping
- call countdown ; if end condition fulfilled, start counting down
+ goto $ ; goto current line in code
 
-countdown:
- movff 0x06, PORTJ ; output the current count value to port J
- movlw 0x00 ; set W to 0x00
- movwf PORTC ; set clock to 0x00
- call delayTimer ; delay to stretch signal
- movlw 0x01 ; set W to 0x01
- movwf PORTC ; set port C (clock) to 0x01
- decf 0x06, W, A ; decrement value of 0x06 by 1 and move it to W
- movwf 0x06, A ; move value from W into 0x06
- movlw 0x01 ; set W to the min value + 1 we want to count to
- cpfslt 0x06, A ; compare 0x06 to W and skip the next line if 0x06 is smaller than W
- bra countdown ; loop back over countdown
- goto loop ; start counting up again
+ ; a delay subroutine if you need one, times around loop in delay_count
+delay: decfsz delay_count, A ; decrement until zero
+ bra delay
+ return
 
-delayTimer:
- movlw 0x10 ; set delay length (countdown delay)
- movwf 0x20 ; prepare 0x20 to be used as a countdown
-dLoop: decfsz 0x20, f, A ; decrement 0x20 value by 1, skip if zero
- bc dLoop ; repeat dLoop
- return ; return to the point delayTimer was called from
-
-end main
+ end rst

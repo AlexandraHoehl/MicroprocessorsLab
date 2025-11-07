@@ -13,8 +13,11 @@ psect	data
 	; ******* myTable, data in programme memory, and its length *****
 myTable:
 	db	'H','e','l','l','o',' ','W','o','r','l','d','!',0x0a
+	db	'H','e','l','l','o',' ','W','o','r','l','d',' '
+	db	'2',' ','e','l','e','c','t','r','i','c',' ','b'
+	db	'o','o','g','a','l','o','o','!',0x0a
 					; message, plus carriage return
-	myTable_l   EQU	13	; length of data
+	myTable_l   EQU	46	; length of data
 	align	2
     
 psect	code, abs	

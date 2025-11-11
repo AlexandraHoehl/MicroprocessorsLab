@@ -1,6 +1,6 @@
 #include <xc.inc>
 
-global  LCD_Setup, LCD_Write_Message
+global  LCD_Setup, LCD_Write_Message, LCD_Clear_Display, LCD_delay_ms, LCD_Move_Line2
 
 psect	udata_acs   ; named variables in access ram
 LCD_cnt_l:	ds 1   ; reserve 1 byte for variable LCD_cnt_l
@@ -45,6 +45,20 @@ LCD_Setup:
 	movlw	10		; wait 40us
 	call	LCD_delay_x4us
 	return
+
+LCD_Clear_Display:
+    movlw	00000001B	; display clear
+    call	LCD_Send_Byte_I
+
+LCD_Move_Line2:
+    movlw	10000000B	; instruction: "I am about to tell you where to put the cursor"
+    call	LCD_Send_Byte_I
+    movlw	10		; wait 40us
+    call	LCD_delay_x4us
+    movlw	01000000B	
+    call	LCD_Send_Byte_I
+    movlw	10		; wait 40us
+    call	LCD_delay_x4us
 
 LCD_Write_Message:	    ; Message stored at FSR2, length stored in W
 	movwf   LCD_counter, A

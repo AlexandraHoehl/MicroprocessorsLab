@@ -1,6 +1,7 @@
 #include <xc.inc>
     
 global  KeyPad_Setup, KeyPad_Read, KeyPad_Check, KeyPad_Evaluate
+extrn	LCD_Write_Message, LCD_Move_Cursor
 
 psect	udata_acs   ; reserve data space in access ram
 KP_cnt_l:	ds 1   ; reserve 1 byte for variable LCD_cnt_l
@@ -15,7 +16,8 @@ KeyPad_Setup:
     movlb   0x0
     clrf    LATE, A
     movlw   0x0
-    movwf   TRISF, A
+    movwf   TRISH, A
+    lfsr    2, 0
     return
 
 KeyPad_Read:
@@ -27,7 +29,7 @@ KeyPad_Read:
     movf    PORTE, W, A
     movlw   0x0F
     andwf   PORTE, W, A	; keep top 4 bits and write to 0x06
-    movwf   0x06, A
+    movwf   0x08, A
     
     ; column read section
     movlw   0xF0
@@ -37,21 +39,46 @@ KeyPad_Read:
     movlw   0xF0
     andwf   PORTE, W, A ; keep bottom 4 bits and write to 0x07
     movwf   0x07, A
-    movf    0x06, W, A ; move value from 0x06 to W
+    movf    0x08, W, A ; move value from 0x06 to W
     iorwf   0x07, W, A	; combine values from 0x06 and 0x07 into byte at W that should tell us which number has been pressed
-    movwf   0x06    ; move the byte into 0x06 to be read out
+    movwf   0x08, A    ; move the byte into 0x06 to be read out
     
     
     return
   
 KeyPad_Check:
-    movf    0x06, W, A
-    movwf   PORTF, A
+    movf    0x08, W, A
+    movwf   PORTH, A
     return
     
 KeyPad_Evaluate:
+    movlw   0x01
+    movwf   0x09, A    ; loc of temporary value '1' to be stored permanently (in KeyPad_WriteResult) if button being pressed is indeed 1
+    movf    0x08, W, A
+    xorlw   0xEE
+    bz	    KeyPad_WriteResult
+    
+    movlw   0x02
+    movwf   0x09, A    ; loc of temporary value '2' to be stored permanently (in KeyPad_WriteResult) if button being pressed is indeed 2
+    movf    0x08, W, A
+    xorlw   0xED
+    bz	    KeyPad_WriteResult
+    
+    movlw   0x03
+    movwf   0x09, A    ; loc of temporary value '1' to be stored permanently (in KeyPad_WriteResult) if button being pressed is indeed 1
+    movf    0x08, W, A
+    xorlw   0xEB
+    bz	    KeyPad_WriteResult
+    
+    
+    
+    
+    ;lfsr    2, 'X'
     return
     
+KeyPad_WriteResult:
+    lfsr    2, 0x09
+    return
 
 Delay_ms:		    ; delay given in ms in W
 	movwf	KP_cnt_ms, A

@@ -1,7 +1,7 @@
 #include <xc.inc>
 
 extrn	UART_Setup, UART_Transmit_Message  ; external subroutines
-extrn	LCD_Setup, LCD_Write_Message, LCD_Clear_Display, LCD_delay_ms, LCD_Move_Line2
+extrn	LCD_Setup, LCD_Write_Message, LCD_Clear_Display, LCD_delay_ms, LCD_Move_Line2, LCD_Move_Cursor 
 extrn	KeyPad_Setup, KeyPad_Read, KeyPad_Check, KeyPad_Evaluate
 
 psect	code, abs	
@@ -12,11 +12,18 @@ rst: 	org 0x0
 setup:	bcf	CFGS	; point to Flash program memory  
 	bsf	EEPGD 	; access Flash program memory
 	call	KeyPad_Setup
+	call	LCD_Setup
 	goto	start
 	
 start:
     call    KeyPad_Read
-    call    KeyPad_Check
+    ;call    KeyPad_Check
+    call    KeyPad_Evaluate
+    movlw   1
+    call    LCD_Write_Message
+    movlw   0x00
+    call    LCD_Move_Cursor
+    goto    start
 
 end	rst
 	

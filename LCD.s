@@ -1,6 +1,6 @@
 #include <xc.inc>
 
-global  LCD_Setup, LCD_Write_Message, LCD_Clear_Display, LCD_delay_ms, LCD_Move_Line2
+global  LCD_Setup, LCD_Write_Message, LCD_Clear_Display, LCD_delay_ms, LCD_Move_Line2, LCD_Move_Cursor
 
 psect	udata_acs   ; named variables in access ram
 LCD_cnt_l:	ds 1   ; reserve 1 byte for variable LCD_cnt_l
@@ -8,6 +8,7 @@ LCD_cnt_h:	ds 1   ; reserve 1 byte for variable LCD_cnt_h
 LCD_cnt_ms:	ds 1   ; reserve 1 byte for ms counter
 LCD_tmp:	ds 1   ; reserve 1 byte for temporary use
 LCD_counter:	ds 1   ; reserve 1 byte for counting through nessage
+TEMP:		ds 1   ; reserve 1 byte for a temporary byte
 
 	LCD_E	EQU 5	; LCD enable bit
     	LCD_RS	EQU 4	; LCD register select bit
@@ -59,6 +60,15 @@ LCD_Move_Line2:
     call	LCD_Send_Byte_I
     movlw	10		; wait 40us
     call	LCD_delay_x4us
+
+LCD_Move_Cursor:
+    movwf   TEMP    ; save Wreg to Temp
+    movlw   0x80
+    iorwf   TEMP, W
+    call    LCD_Send_Byte_I
+    return
+    
+ 
 
 LCD_Write_Message:	    ; Message stored at FSR2, length stored in W
 	movwf   LCD_counter, A

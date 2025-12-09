@@ -22,11 +22,6 @@ psect	led_code,class=CODE
 	
 LED_Setup:
 ; setup pins 4-7 of port J as output in main
-    ; set delta t
-    movlw   0xFF
-    movwf   deltat_L
-    movlw   0x07
-    movwf   deltat_H
     
     ;LIM
     movff   deltat_L, LIM_L
@@ -176,6 +171,7 @@ CLO_LED:
     goto    LIM_Check	; check next distance marker
     
 LIM_LED:
+    ;bsf	    PORTD, 0
     bsf	    LATJ, 7
     bsf	    LATD, 0 ; buzzer on (?)
     return		; all LEDs on, return

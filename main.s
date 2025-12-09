@@ -73,7 +73,7 @@ Mode_not_found:
     goto    $
 	
 Proximity_mode_start:
-    call    LED_Setup
+    ;call    LED_Setup
     call    ADC_Setup
    Proximity_mode_loop:
     call    ULTRA_Pulse
@@ -83,13 +83,11 @@ Proximity_mode_start:
     movff   ADRESH, deltat_H
     movff   ADRESL, deltat_L
     ; clear carry bit and shift twice
-    clrf    STATUS, 0
-    rrcf    deltat_H
-    rrcf    deltat_L
-    clrf    STATUS, 0
-    rrcf    deltat_H
-    rrcf    deltat_L
+    bcf    STATUS, 0
+    rlcf    deltat_L
+    rlcf    deltat_H
     ; execute distance check and LED logic
+    call    LED_Setup
     call    LED_Logic
     goto    Proximity_mode_loop
 

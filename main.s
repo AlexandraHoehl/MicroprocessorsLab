@@ -31,11 +31,11 @@ int_hi:
     goto    High_ISR
 
 	; ******* Programme FLASH read Setup Code ***********************
-setup:	bcf	CFGS	; point to Flash program memory  
+setup:	bcf	CFGS	; point to Flash program memory   - is this necessary ? remove ?
 	bsf	EEPGD 	; access Flash program memory
+	clrf	LATD
 	; call	UART_Setup	; setup UART
 	call	LCD_Setup	; setup LCD
-	;call	ADC_Setup	; setup ADC
 	call	ULTRA_Setup
 	
 	; check for mode
@@ -72,8 +72,6 @@ setup:	bcf	CFGS	; point to Flash program memory
 	btfsc   STATUS, 2, A    ; skip next instruction if comparison yielded false
 	goto	Motion_mode_start
 	
-	
-	
 	goto	Mode_not_found	    ; check if an invalid mode was selected
 	
 Mode_not_found:
@@ -81,8 +79,7 @@ Mode_not_found:
     goto    $
 	
 Proximity_mode_start:
-    ;call    LED_Setup
-    call    ADC_Setup
+    call    ADC_Setup	; setup ADC
    Proximity_mode_loop:
     call    ULTRA_Pulse
     call    ULTRA_Measure
@@ -95,7 +92,7 @@ Proximity_mode_start:
     rlcf    deltat_L
     rlcf    deltat_H
     ; execute distance check and LED logic
-    call    LED_Setup
+    call    LED_Setup	; keep in loop to allow for distance scale changes on the go
     call    LED_Logic
     goto    Proximity_mode_loop
 

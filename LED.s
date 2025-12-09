@@ -21,7 +21,11 @@ FAR_H:	    ds	1
 psect	led_code,class=CODE   
 	
 LED_Setup:
-; setup pins 4-7 of port J as output in main
+    
+    movlw   01000010B
+    movwf   TRISD, A	; set portd i/o
+    
+    ; setup pins 4-7 of port J as output in main
     
     ;LIM
     movff   deltat_L, LIM_L
@@ -70,6 +74,7 @@ LED_Setup:
     bcf	    LATJ, 6
     bcf	    LATJ, 5
     bcf	    LATJ, 4
+    bcf	    LATD, 0
 
 LED_Logic:
     ; light  up leds in sequence
@@ -86,6 +91,7 @@ FAR_Check:
     bcf	    LATJ, 5
     bcf	    LATJ, 6
     bcf	    LATJ, 7
+    bcf	    LATD, 0
     return
     
 FAR_check_hi_res:
@@ -96,6 +102,7 @@ FAR_check_hi_res:
     bcf	    LATJ, 5
     bcf	    LATJ, 6
     bcf	    LATJ, 7
+    bcf	    LATD, 0
     return
 
 MID_Check:
@@ -109,6 +116,7 @@ MID_Check:
     bcf	    LATJ, 5
     bcf	    LATJ, 6
     bcf	    LATJ, 7
+    bcf	    LATD, 0
     return
     
 MID_check_hi_res:
@@ -118,6 +126,7 @@ MID_check_hi_res:
     bcf	    LATJ, 5
     bcf	    LATJ, 6
     bcf	    LATJ, 7
+    bcf	    LATD, 0
     return
     
 CLO_Check:
@@ -130,6 +139,7 @@ CLO_Check:
     goto    CLO_LED    ; turn CLO led on
     bcf	    LATJ, 6
     bcf	    LATJ, 7
+    bcf	    LATD, 0
     return
     
 CLO_check_hi_res:
@@ -138,6 +148,7 @@ CLO_check_hi_res:
     goto    CLO_LED
     bcf	    LATJ, 6
     bcf	    LATJ, 7
+    bcf	    LATD, 0
     return
 
 LIM_Check:
@@ -149,6 +160,7 @@ LIM_Check:
     cpfslt  LIM_L
     goto    LIM_LED	; turn LIM led on if distance less than LIM dist
     bcf	    LATJ, 7	; turn LIM LED off if distance greater than LIM dist
+    bcf	    LATD, 0
     return
     
 LIM_check_hi_res:
@@ -156,6 +168,7 @@ LIM_check_hi_res:
     cpfslt  LIM_H
     goto    LIM_LED	; turn LIM led on if distance less than LIM dist
     bcf	    LATJ, 7	; turn LIM LED off if distance greater than LIM dist
+    bcf	    LATD, 0
     return    
     
 FAR_LED:
@@ -172,7 +185,7 @@ CLO_LED:
     
 LIM_LED:
     bsf	    LATJ, 7
-    ;bsf	    LATD, 0 ; buzzer on (?) not functional
+    bsf	    LATD, 0 ; buzzer on (?) not functional
     return		; all LEDs on, return
 
 

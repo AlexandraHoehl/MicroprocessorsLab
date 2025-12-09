@@ -3,8 +3,8 @@
 */
 #include <xc.inc>
     
-global ULTRA_Setup, ULTRA_Pulse, ULTRA_Measure, ULTRA_Dist_Convert, ULTRA_delay_ms, High_ISR, ULTRA_Hex_Time_to_Dist, ULTRA_Motion_Detect
-global t2L, t2H, RES0x, RES1x, RES2x, DRES0, DRES1, DRES2, DRES3, SHIFTS
+global ULTRA_Setup, ULTRA_Pulse, ULTRA_Measure, ULTRA_Hex_Time_to_Dist, ULTRA_Dist_Convert, ULTRA_delay_ms, High_ISR, ULTRA_Motion_Detect
+global t2L, t2H
 global DIST1, DIST2, DIST3, DIST4, DIST5, DIST6, DIST7
     
 psect	udata_acs	    ; named variables in access ram
@@ -25,8 +25,8 @@ RES2x:		ds 1
 
 SHIFTS:		ds 1	    ; number of shifts to execute in our binary to decimal converter
 
-    ;0 is LSF
-xARG0:		ds 1
+    ;0 is least sig fig
+xARG0:		ds 1 
 xARG1:		ds 1
 xARG2:		ds 1
     
@@ -35,14 +35,14 @@ DRES1:		ds 1
 DRES2:		ds 1
 DRES3:		ds 1
     
-    ;1 is MSF
+    ;1 is most sig fig
 DIST1:		ds 1	; distance digits in decimal
 DIST2:		ds 1
 DIST3:		ds 1
 DIST4:		ds 1
 DIST5:		ds 1
 DIST6:		ds 1
-DIST7:		ds 1	 ; adjust as needed
+DIST7:		ds 1	; max dist 4 m - require 3 digits for pre-decimal and 4 digits for post decimal
     
 DDL:		ds 1
 DDH:		ds 1
@@ -53,8 +53,6 @@ psect	ultra_code,class=CODE
 ULTRA_Setup:
     movlw   01000010B
     movwf   TRISD, A	; set portd i/o
-    ;movlw   00000100B
-    ;movwf   PORTD, A	; set Vcc (5V)
     movlw   0xFF
     movwf   TRISE, A	    ;  -> in order to configure CCP6 pin to input
     return
@@ -94,12 +92,14 @@ OtherISR:
     retfie  f
 
 ULTRA_Pulse:
-    movlw   00010000B
-    movwf   PORTD, A	    ; signal on
+    ;movlw   00010000B
+    ;movwf   PORTD, A	    
+    bsf	    PORTD, 4	    ; signal on
     movlw   2
     call    ULTRA_delay_ms  ; delay for 2 ms
-    movlw   00000000B
-    movwf   PORTD, A	    ; signal off - device will now send 8 cycle sonic burst
+    ;movlw   0000000B
+    ;movwf   PORTD, A	    
+    bcf	    PORTD, 4	    ; signal off - device will now send 8 cycle sonic burst
     return
 
 ULTRA_Measure:
@@ -121,14 +121,15 @@ ULTRA_Measure:
     movlw   100
     call    ULTRA_delay_ms  ; delay for 100 ms
     
-    ; read time between send and receive:
-    ; interrupt on rising edge of echo
-    ; reset timer
-    ; interrupt on falling edge of echo
-    ; save time value
+    /*
+    read time between send and receive:
+    interrupt on rising edge of echo
+    reset timer
+    interrupt on falling edge of echo
+    save time value
     
-    ; check if timer exceeds max
-    
+    check if timer exceeds max
+    */
     return
     
 ULTRA_Hex_Time_to_Dist:
@@ -162,7 +163,7 @@ ULTRA_Dist_Convert:
 	movlw	24		    ; 24 shifts to execute in our BCD
 	movwf	SHIFTS
 	
-	movff	RES0x, xARG0
+	movff	RES0x, xARG0	; move for comparison & debugging
 	movff	RES1x, xARG1
 	movff	RES2x, xARG2
 	
@@ -184,7 +185,7 @@ ULTRA_Dist_Convert:
 	addlw	00000011B
 	movwf	DDL
 
-	swapf	DRES0, W
+	swapf	DRES0, W    ; swap nibbles
 	andlw	0x0F	    ; only want top nibble
 	sublw	4
 	movf	DRES0, W
@@ -193,6 +194,7 @@ ULTRA_Dist_Convert:
 	addlw	00110000B   ; add 3 to top nibble
 	iorwf	DDL, W	    ; combine low nibble from earlier with high nibble in W
 	movwf	DRES0, A
+	; rinse and repeat
 	
 	;DRES1
 	movf	DRES1, W
@@ -266,7 +268,7 @@ ULTRA_Dist_Convert:
 	
 	; Finish conversion 
 	decfsz	SHIFTS	    ; decrement counter and check we've gone through all our shifts
-	goto	BDC_loop  ; loop if counter is nonzero
+	goto	BDC_loop    ; loop if counter is nonzero
 	
 
 	; store decimal values in individual bits
@@ -317,8 +319,7 @@ ULTRA_Motion_Detect:
     
 motion_detected:
     ; flag that motion has been detected
-    ; turn on buzzer
-    bsf	    LATD, 0
+    bsf	    LATD, 0 ; turn on buzzer
     goto    detect_loop
 detect_loop:
     btfss   PORTD, 1    ; if the button is pressed, PORTD0 is pulled up - stop buzzing

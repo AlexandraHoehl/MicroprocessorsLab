@@ -171,9 +171,8 @@ CLO_LED:
     goto    LIM_Check	; check next distance marker
     
 LIM_LED:
-    ;bsf	    PORTD, 0
     bsf	    LATJ, 7
-    bsf	    LATD, 0 ; buzzer on (?)
+    ;bsf	    LATD, 0 ; buzzer on (?) not functional
     return		; all LEDs on, return
 
 

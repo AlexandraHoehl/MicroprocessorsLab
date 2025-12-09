@@ -50,21 +50,29 @@ setup:	bcf	CFGS	; point to Flash program memory
 	
 	movf	PORTJ, W
 	iorlw	11110000B	; mask off top bits being used as outputs
-	xorlw   11110001B	; compare to 0101B for rising edge mode
+	xorlw   11110001B	; compare to 0001B for cont dist mode
 	btfsc   STATUS, 2, A    ; skip next instruction if comparison yielded false
 	goto	Distance_cont_mode_start
 	
 	movf	PORTJ, W
-	iorlw	11110000B
-	xorlw   11110010B	    ; compare to 0101B for rising edge mode
+	iorlw	11110000B	
+	xorlw   11110010B	; compare to 0010B for single shot dist mode
+	btfsc   STATUS, 2, A    ; skip next instruction if comparison yielded false
+	goto	Distance_sish_mode_start
+	
+	movf	PORTJ, W
+	iorlw	11110000B	    
+	xorlw   11110100B	    ; compare to 0100B for proximity mode
 	btfsc   STATUS, 2, A    ; skip next instruction if comparison yielded false
 	goto	Proximity_mode_start
 	
 	movf	PORTJ, W
 	iorlw	11110000B
-	xorlw   11110100B	    ; compare to 0101B for rising edge mode
+	xorlw   11111000B	    ; compare to 1000B for motion mode
 	btfsc   STATUS, 2, A    ; skip next instruction if comparison yielded false
 	goto	Motion_mode_start
+	
+	
 	
 	goto	Mode_not_found	    ; check if an invalid mode was selected
 	
@@ -111,12 +119,27 @@ Distance_cont_mode_start:
 	movlw	0xFF
 	call	ULTRA_delay_ms
 	   
-	
-	
-	
 	goto Distance_cont_mode_start
 	
+Distance_sish_mode_start: ; single shot mode
+	call	ULTRA_Pulse
+	call	ULTRA_Measure
+	call	ULTRA_Hex_Time_to_Dist
+	call	ULTRA_Dist_Convert; use measured distance and convert to cm
+	; output cm value to LCD
+	call	LCD_Clear ; clear LCD to prepare for new value to be output
+	; check for timer overflow
+	btfsc	PIR1, 0
+	call	LCD_Max_Message
+	btfss	PIR1, 0
+	call	LCD_Write_Distance
 	
+	movlw	0xFF
+	call	ULTRA_delay_ms
+    sish_wait_loop:	; poll button on RD1 and skip out back to measurement start if button pressed
+	btfss	PORTD, 1
+	goto	sish_wait_loop
+	goto	Distance_sish_mode_start
 	
 /*
 	; ******* Main programme ****************************************

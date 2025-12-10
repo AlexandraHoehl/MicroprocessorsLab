@@ -6,7 +6,7 @@ extrn t2L, t2H
 
 
 psect	udata_acs
-deltat_L:    ds	1 ; detla_t should be leq 16383 in decimal (3FFF) so that FAR stays 16 bit
+deltat_L:    ds	1 ; detla_t should be leq 16383 in decimal (3FFF) so that FAR stays leq 16 bit
 deltat_H:   ds  1
 LIM_L:	    ds	1
 LIM_H:	    ds	1

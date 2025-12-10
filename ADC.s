@@ -1,8 +1,6 @@
 #include <xc.inc>
 
 global ADC_Setup, ADC_Read, ADC_Convert
-;global RES0, RES1, RES2, RES3
-global DEC0, DEC1, DEC2, DEC3
  
 psect	udata_acs   ; reserve data space in access ram
 DEC0:    ds 1    ; reserve one byte for digit 1 of result (output goes as D0 D1 D2 D3)
@@ -46,7 +44,7 @@ adc_loop:
 	
 	
 ADC_Convert:	; requires ADC_Read to be called first
-	; k is 0x418A - conversion factor k
+	; conversion factor k is 0x418A
 	movlw	0x41
 	movwf	ARG2H, A
 	movlw	0x8A

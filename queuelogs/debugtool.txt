@@ -1,0 +1,1000 @@
+3811 1765361700982 XXXX 1765361700982, Thread 3811: XXXX 1765361700982, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361701081 XXXX 1765361701081, Thread 3811: XXXX 1765361701081, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361701083 XXXX 1765361701083, Thread 3811: XXXX 1765361701083, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361701182 XXXX 1765361701182, Thread 3811: XXXX 1765361701182, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361701184 XXXX 1765361701184, Thread 3811: XXXX 1765361701184, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361701284 XXXX 1765361701284, Thread 3811: XXXX 1765361701284, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361701285 XXXX 1765361701285, Thread 3811: XXXX 1765361701285, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361701386 XXXX 1765361701386, Thread 3811: XXXX 1765361701386, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361701388 XXXX 1765361701388, Thread 3811: XXXX 1765361701388, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361701487 XXXX 1765361701487, Thread 3811: XXXX 1765361701487, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361701489 XXXX 1765361701489, Thread 3811: XXXX 1765361701489, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361701587 XXXX 1765361701587, Thread 3811: XXXX 1765361701587, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361701588 XXXX 1765361701588, Thread 3811: XXXX 1765361701588, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361701689 XXXX 1765361701689, Thread 3811: XXXX 1765361701689, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361701691 XXXX 1765361701691, Thread 3811: XXXX 1765361701691, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361701789 XXXX 1765361701789, Thread 3811: XXXX 1765361701789, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361701790 XXXX 1765361701790, Thread 3811: XXXX 1765361701790, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361701891 XXXX 1765361701891, Thread 3811: XXXX 1765361701891, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361701893 XXXX 1765361701893, Thread 3811: XXXX 1765361701893, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361701992 XXXX 1765361701992, Thread 3811: XXXX 1765361701992, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361701994 XXXX 1765361701994, Thread 3811: XXXX 1765361701994, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361702093 XXXX 1765361702093, Thread 3811: XXXX 1765361702093, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361702095 XXXX 1765361702095, Thread 3811: XXXX 1765361702095, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361702195 XXXX 1765361702195, Thread 3811: XXXX 1765361702195, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361702197 XXXX 1765361702197, Thread 3811: XXXX 1765361702197, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361702296 XXXX 1765361702296, Thread 3811: XXXX 1765361702296, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361702298 XXXX 1765361702298, Thread 3811: XXXX 1765361702298, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361702398 XXXX 1765361702398, Thread 3811: XXXX 1765361702398, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361702400 XXXX 1765361702400, Thread 3811: XXXX 1765361702400, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361702499 XXXX 1765361702499, Thread 3811: XXXX 1765361702499, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361702501 XXXX 1765361702501, Thread 3811: XXXX 1765361702501, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361702600 XXXX 1765361702600, Thread 3811: XXXX 1765361702600, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361702602 XXXX 1765361702602, Thread 3811: XXXX 1765361702602, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361702701 XXXX 1765361702701, Thread 3811: XXXX 1765361702701, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361702703 XXXX 1765361702703, Thread 3811: XXXX 1765361702703, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361702801 XXXX 1765361702801, Thread 3811: XXXX 1765361702801, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361702803 XXXX 1765361702803, Thread 3811: XXXX 1765361702803, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361702902 XXXX 1765361702902, Thread 3811: XXXX 1765361702902, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361702904 XXXX 1765361702904, Thread 3811: XXXX 1765361702904, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361703003 XXXX 1765361703003, Thread 3811: XXXX 1765361703003, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361703005 XXXX 1765361703005, Thread 3811: XXXX 1765361703005, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361703104 XXXX 1765361703104, Thread 3811: XXXX 1765361703104, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361703106 XXXX 1765361703106, Thread 3811: XXXX 1765361703106, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361703207 XXXX 1765361703207, Thread 3811: XXXX 1765361703207, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361703209 XXXX 1765361703209, Thread 3811: XXXX 1765361703209, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361703307 XXXX 1765361703307, Thread 3811: XXXX 1765361703307, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361703309 XXXX 1765361703309, Thread 3811: XXXX 1765361703309, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361703409 XXXX 1765361703409, Thread 3811: XXXX 1765361703409, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361703411 XXXX 1765361703411, Thread 3811: XXXX 1765361703411, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361703510 XXXX 1765361703510, Thread 3811: XXXX 1765361703510, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361703512 XXXX 1765361703512, Thread 3811: XXXX 1765361703512, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361703611 XXXX 1765361703611, Thread 3811: XXXX 1765361703611, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361703613 XXXX 1765361703613, Thread 3811: XXXX 1765361703613, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361703713 XXXX 1765361703713, Thread 3811: XXXX 1765361703713, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361703715 XXXX 1765361703715, Thread 3811: XXXX 1765361703715, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361703814 XXXX 1765361703814, Thread 3811: XXXX 1765361703814, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361703816 XXXX 1765361703816, Thread 3811: XXXX 1765361703816, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361703916 XXXX 1765361703916, Thread 3811: XXXX 1765361703916, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361703918 XXXX 1765361703918, Thread 3811: XXXX 1765361703918, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361704016 XXXX 1765361704016, Thread 3811: XXXX 1765361704016, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361704018 XXXX 1765361704018, Thread 3811: XXXX 1765361704018, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361704116 XXXX 1765361704116, Thread 3811: XXXX 1765361704116, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361704118 XXXX 1765361704118, Thread 3811: XXXX 1765361704118, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361704218 XXXX 1765361704218, Thread 3811: XXXX 1765361704218, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361704220 XXXX 1765361704220, Thread 3811: XXXX 1765361704220, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361704319 XXXX 1765361704319, Thread 3811: XXXX 1765361704319, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361704321 XXXX 1765361704321, Thread 3811: XXXX 1765361704320, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361704420 XXXX 1765361704420, Thread 3811: XXXX 1765361704420, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361704422 XXXX 1765361704422, Thread 3811: XXXX 1765361704422, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361704521 XXXX 1765361704521, Thread 3811: XXXX 1765361704521, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361704523 XXXX 1765361704523, Thread 3811: XXXX 1765361704523, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361704623 XXXX 1765361704623, Thread 3811: XXXX 1765361704623, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361704625 XXXX 1765361704625, Thread 3811: XXXX 1765361704625, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361704724 XXXX 1765361704724, Thread 3811: XXXX 1765361704724, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361704725 XXXX 1765361704725, Thread 3811: XXXX 1765361704725, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361704826 XXXX 1765361704826, Thread 3811: XXXX 1765361704826, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361704827 XXXX 1765361704827, Thread 3811: XXXX 1765361704827, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361704929 XXXX 1765361704929, Thread 3811: XXXX 1765361704929, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361704930 XXXX 1765361704930, Thread 3811: XXXX 1765361704930, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361705031 XXXX 1765361705031, Thread 3811: XXXX 1765361705031, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361705033 XXXX 1765361705033, Thread 3811: XXXX 1765361705033, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361705131 XXXX 1765361705131, Thread 3811: XXXX 1765361705131, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361705132 XXXX 1765361705132, Thread 3811: XXXX 1765361705132, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361705233 XXXX 1765361705233, Thread 3811: XXXX 1765361705233, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361705235 XXXX 1765361705235, Thread 3811: XXXX 1765361705235, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361705334 XXXX 1765361705334, Thread 3811: XXXX 1765361705334, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361705336 XXXX 1765361705336, Thread 3811: XXXX 1765361705336, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361705436 XXXX 1765361705436, Thread 3811: XXXX 1765361705436, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361705437 XXXX 1765361705437, Thread 3811: XXXX 1765361705437, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361705537 XXXX 1765361705537, Thread 3811: XXXX 1765361705537, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361705539 XXXX 1765361705539, Thread 3811: XXXX 1765361705539, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361705637 XXXX 1765361705637, Thread 3811: XXXX 1765361705637, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361705639 XXXX 1765361705639, Thread 3811: XXXX 1765361705639, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361705739 XXXX 1765361705739, Thread 3811: XXXX 1765361705739, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361705741 XXXX 1765361705741, Thread 3811: XXXX 1765361705741, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361705840 XXXX 1765361705840, Thread 3811: XXXX 1765361705840, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361705841 XXXX 1765361705841, Thread 3811: XXXX 1765361705841, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361705942 XXXX 1765361705942, Thread 3811: XXXX 1765361705942, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361705944 XXXX 1765361705944, Thread 3811: XXXX 1765361705944, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361706042 XXXX 1765361706042, Thread 3811: XXXX 1765361706042, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361706043 XXXX 1765361706043, Thread 3811: XXXX 1765361706043, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361706143 XXXX 1765361706143, Thread 3811: XXXX 1765361706143, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361706145 XXXX 1765361706145, Thread 3811: XXXX 1765361706145, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361706243 XXXX 1765361706243, Thread 3811: XXXX 1765361706243, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361706245 XXXX 1765361706245, Thread 3811: XXXX 1765361706245, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361706343 XXXX 1765361706343, Thread 3811: XXXX 1765361706343, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361706345 XXXX 1765361706345, Thread 3811: XXXX 1765361706345, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361706445 XXXX 1765361706445, Thread 3811: XXXX 1765361706445, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361706447 XXXX 1765361706447, Thread 3811: XXXX 1765361706447, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361706547 XXXX 1765361706547, Thread 3811: XXXX 1765361706547, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361706549 XXXX 1765361706549, Thread 3811: XXXX 1765361706549, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361706649 XXXX 1765361706649, Thread 3811: XXXX 1765361706649, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361706650 XXXX 1765361706650, Thread 3811: XXXX 1765361706650, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361706749 XXXX 1765361706749, Thread 3811: XXXX 1765361706749, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361706750 XXXX 1765361706750, Thread 3811: XXXX 1765361706750, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361706850 XXXX 1765361706850, Thread 3811: XXXX 1765361706850, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361706851 XXXX 1765361706851, Thread 3811: XXXX 1765361706851, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361706951 XXXX 1765361706951, Thread 3811: XXXX 1765361706951, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361706953 XXXX 1765361706953, Thread 3811: XXXX 1765361706953, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361707053 XXXX 1765361707053, Thread 3811: XXXX 1765361707053, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361707054 XXXX 1765361707054, Thread 3811: XXXX 1765361707054, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361707154 XXXX 1765361707154, Thread 3811: XXXX 1765361707154, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361707156 XXXX 1765361707156, Thread 3811: XXXX 1765361707156, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361707255 XXXX 1765361707255, Thread 3811: XXXX 1765361707255, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361707256 XXXX 1765361707256, Thread 3811: XXXX 1765361707256, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361707357 XXXX 1765361707357, Thread 3811: XXXX 1765361707357, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361707358 XXXX 1765361707358, Thread 3811: XXXX 1765361707358, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361707458 XXXX 1765361707458, Thread 3811: XXXX 1765361707458, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361707460 XXXX 1765361707460, Thread 3811: XXXX 1765361707460, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361707559 XXXX 1765361707559, Thread 3811: XXXX 1765361707559, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361707561 XXXX 1765361707561, Thread 3811: XXXX 1765361707561, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361707660 XXXX 1765361707660, Thread 3811: XXXX 1765361707660, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361707662 XXXX 1765361707662, Thread 3811: XXXX 1765361707662, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361707760 XXXX 1765361707760, Thread 3811: XXXX 1765361707760, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361707761 XXXX 1765361707761, Thread 3811: XXXX 1765361707761, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361707862 XXXX 1765361707862, Thread 3811: XXXX 1765361707862, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361707863 XXXX 1765361707863, Thread 3811: XXXX 1765361707863, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361707964 XXXX 1765361707964, Thread 3811: XXXX 1765361707964, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361707965 XXXX 1765361707965, Thread 3811: XXXX 1765361707965, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361708067 XXXX 1765361708067, Thread 3811: XXXX 1765361708067, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361708069 XXXX 1765361708069, Thread 3811: XXXX 1765361708069, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361708168 XXXX 1765361708168, Thread 3811: XXXX 1765361708168, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361708171 XXXX 1765361708171, Thread 3811: XXXX 1765361708171, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361708270 XXXX 1765361708270, Thread 3811: XXXX 1765361708270, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361708271 XXXX 1765361708271, Thread 3811: XXXX 1765361708271, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361708371 XXXX 1765361708371, Thread 3811: XXXX 1765361708371, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361708372 XXXX 1765361708372, Thread 3811: XXXX 1765361708372, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361708473 XXXX 1765361708473, Thread 3811: XXXX 1765361708473, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361708475 XXXX 1765361708475, Thread 3811: XXXX 1765361708475, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361708575 XXXX 1765361708575, Thread 3811: XXXX 1765361708575, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361708577 XXXX 1765361708577, Thread 3811: XXXX 1765361708577, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361708676 XXXX 1765361708676, Thread 3811: XXXX 1765361708676, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361708677 XXXX 1765361708677, Thread 3811: XXXX 1765361708677, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361708777 XXXX 1765361708777, Thread 3811: XXXX 1765361708777, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361708779 XXXX 1765361708779, Thread 3811: XXXX 1765361708779, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361708879 XXXX 1765361708879, Thread 3811: XXXX 1765361708879, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361708880 XXXX 1765361708880, Thread 3811: XXXX 1765361708880, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361708981 XXXX 1765361708981, Thread 3811: XXXX 1765361708981, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361708983 XXXX 1765361708983, Thread 3811: XXXX 1765361708983, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361709082 XXXX 1765361709082, Thread 3811: XXXX 1765361709082, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361709083 XXXX 1765361709083, Thread 3811: XXXX 1765361709083, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361709184 XXXX 1765361709184, Thread 3811: XXXX 1765361709184, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361709186 XXXX 1765361709186, Thread 3811: XXXX 1765361709186, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361709286 XXXX 1765361709286, Thread 3811: XXXX 1765361709286, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361709287 XXXX 1765361709287, Thread 3811: XXXX 1765361709287, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361709388 XXXX 1765361709388, Thread 3811: XXXX 1765361709388, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361709390 XXXX 1765361709390, Thread 3811: XXXX 1765361709390, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361709490 XXXX 1765361709490, Thread 3811: XXXX 1765361709490, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361709492 XXXX 1765361709492, Thread 3811: XXXX 1765361709492, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361709590 XXXX 1765361709590, Thread 3811: XXXX 1765361709590, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361709593 XXXX 1765361709593, Thread 3811: XXXX 1765361709593, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361709691 XXXX 1765361709691, Thread 3811: XXXX 1765361709691, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361709693 XXXX 1765361709693, Thread 3811: XXXX 1765361709693, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361709792 XXXX 1765361709792, Thread 3811: XXXX 1765361709792, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361709794 XXXX 1765361709794, Thread 3811: XXXX 1765361709794, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361709893 XXXX 1765361709893, Thread 3811: XXXX 1765361709893, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361709895 XXXX 1765361709895, Thread 3811: XXXX 1765361709895, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361709993 XXXX 1765361709993, Thread 3811: XXXX 1765361709993, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361709996 XXXX 1765361709996, Thread 3811: XXXX 1765361709996, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361710096 XXXX 1765361710096, Thread 3811: XXXX 1765361710096, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361710097 XXXX 1765361710097, Thread 3811: XXXX 1765361710097, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361710198 XXXX 1765361710198, Thread 3811: XXXX 1765361710198, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361710200 XXXX 1765361710200, Thread 3811: XXXX 1765361710200, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361710299 XXXX 1765361710299, Thread 3811: XXXX 1765361710299, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361710301 XXXX 1765361710301, Thread 3811: XXXX 1765361710301, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361710399 XXXX 1765361710399, Thread 3811: XXXX 1765361710399, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361710401 XXXX 1765361710401, Thread 3811: XXXX 1765361710401, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361710499 XXXX 1765361710499, Thread 3811: XXXX 1765361710499, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361710502 XXXX 1765361710502, Thread 3811: XXXX 1765361710502, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361710601 XXXX 1765361710601, Thread 3811: XXXX 1765361710601, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361710603 XXXX 1765361710603, Thread 3811: XXXX 1765361710603, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361710702 XXXX 1765361710702, Thread 3811: XXXX 1765361710702, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361710703 XXXX 1765361710703, Thread 3811: XXXX 1765361710703, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361710803 XXXX 1765361710803, Thread 3811: XXXX 1765361710803, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361710805 XXXX 1765361710805, Thread 3811: XXXX 1765361710805, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361710904 XXXX 1765361710904, Thread 3811: XXXX 1765361710904, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361710906 XXXX 1765361710906, Thread 3811: XXXX 1765361710906, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361711005 XXXX 1765361711005, Thread 3811: XXXX 1765361711005, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361711007 XXXX 1765361711007, Thread 3811: XXXX 1765361711007, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361711106 XXXX 1765361711106, Thread 3811: XXXX 1765361711106, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361711108 XXXX 1765361711108, Thread 3811: XXXX 1765361711108, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361711206 XXXX 1765361711206, Thread 3811: XXXX 1765361711206, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361711208 XXXX 1765361711208, Thread 3811: XXXX 1765361711208, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361711307 XXXX 1765361711307, Thread 3811: XXXX 1765361711307, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361711309 XXXX 1765361711309, Thread 3811: XXXX 1765361711309, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361711408 XXXX 1765361711408, Thread 3811: XXXX 1765361711408, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361711410 XXXX 1765361711410, Thread 3811: XXXX 1765361711410, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361711508 XXXX 1765361711508, Thread 3811: XXXX 1765361711508, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361711510 XXXX 1765361711510, Thread 3811: XXXX 1765361711510, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361711610 XXXX 1765361711610, Thread 3811: XXXX 1765361711610, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361711612 XXXX 1765361711612, Thread 3811: XXXX 1765361711612, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361711712 XXXX 1765361711712, Thread 3811: XXXX 1765361711712, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361711714 XXXX 1765361711714, Thread 3811: XXXX 1765361711714, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361711812 XXXX 1765361711812, Thread 3811: XXXX 1765361711812, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361711814 XXXX 1765361711814, Thread 3811: XXXX 1765361711814, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361711912 XXXX 1765361711912, Thread 3811: XXXX 1765361711912, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361711914 XXXX 1765361711914, Thread 3811: XXXX 1765361711914, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361712014 XXXX 1765361712014, Thread 3811: XXXX 1765361712014, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361712016 XXXX 1765361712016, Thread 3811: XXXX 1765361712016, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361712116 XXXX 1765361712116, Thread 3811: XXXX 1765361712116, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361712118 XXXX 1765361712118, Thread 3811: XXXX 1765361712118, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361712217 XXXX 1765361712217, Thread 3811: XXXX 1765361712217, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361712219 XXXX 1765361712219, Thread 3811: XXXX 1765361712219, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361712318 XXXX 1765361712318, Thread 3811: XXXX 1765361712318, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361712320 XXXX 1765361712320, Thread 3811: XXXX 1765361712320, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361712420 XXXX 1765361712420, Thread 3811: XXXX 1765361712420, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361712422 XXXX 1765361712422, Thread 3811: XXXX 1765361712422, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361712523 XXXX 1765361712523, Thread 3811: XXXX 1765361712523, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361712525 XXXX 1765361712525, Thread 3811: XXXX 1765361712525, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361712623 XXXX 1765361712623, Thread 3811: XXXX 1765361712623, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361712625 XXXX 1765361712625, Thread 3811: XXXX 1765361712625, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361712724 XXXX 1765361712724, Thread 3811: XXXX 1765361712723, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361712726 XXXX 1765361712726, Thread 3811: XXXX 1765361712726, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361712825 XXXX 1765361712825, Thread 3811: XXXX 1765361712825, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361712827 XXXX 1765361712827, Thread 3811: XXXX 1765361712827, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361712926 XXXX 1765361712926, Thread 3811: XXXX 1765361712926, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361712928 XXXX 1765361712928, Thread 3811: XXXX 1765361712928, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361713027 XXXX 1765361713027, Thread 3811: XXXX 1765361713027, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361713029 XXXX 1765361713029, Thread 3811: XXXX 1765361713029, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361713129 XXXX 1765361713129, Thread 3811: XXXX 1765361713129, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361713131 XXXX 1765361713131, Thread 3811: XXXX 1765361713131, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361713230 XXXX 1765361713230, Thread 3811: XXXX 1765361713230, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361713231 XXXX 1765361713231, Thread 3811: XXXX 1765361713231, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361713331 XXXX 1765361713331, Thread 3811: XXXX 1765361713331, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361713333 XXXX 1765361713333, Thread 3811: XXXX 1765361713333, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361713432 XXXX 1765361713432, Thread 3811: XXXX 1765361713432, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361713434 XXXX 1765361713434, Thread 3811: XXXX 1765361713434, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361713532 XXXX 1765361713532, Thread 3811: XXXX 1765361713532, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361713534 XXXX 1765361713534, Thread 3811: XXXX 1765361713534, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361713634 XXXX 1765361713634, Thread 3811: XXXX 1765361713634, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361713636 XXXX 1765361713636, Thread 3811: XXXX 1765361713636, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361713735 XXXX 1765361713735, Thread 3811: XXXX 1765361713735, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361713737 XXXX 1765361713737, Thread 3811: XXXX 1765361713737, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361713836 XXXX 1765361713836, Thread 3811: XXXX 1765361713836, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361713838 XXXX 1765361713838, Thread 3811: XXXX 1765361713838, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361713937 XXXX 1765361713937, Thread 3811: XXXX 1765361713937, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361713939 XXXX 1765361713939, Thread 3811: XXXX 1765361713939, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361714038 XXXX 1765361714038, Thread 3811: XXXX 1765361714038, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361714040 XXXX 1765361714040, Thread 3811: XXXX 1765361714040, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361714139 XXXX 1765361714139, Thread 3811: XXXX 1765361714139, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361714140 XXXX 1765361714140, Thread 3811: XXXX 1765361714140, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361714241 XXXX 1765361714241, Thread 3811: XXXX 1765361714241, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361714243 XXXX 1765361714243, Thread 3811: XXXX 1765361714243, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361714342 XXXX 1765361714342, Thread 3811: XXXX 1765361714342, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361714344 XXXX 1765361714344, Thread 3811: XXXX 1765361714344, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361714443 XXXX 1765361714443, Thread 3811: XXXX 1765361714443, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361714445 XXXX 1765361714445, Thread 3811: XXXX 1765361714445, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361714544 XXXX 1765361714544, Thread 3811: XXXX 1765361714544, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361714546 XXXX 1765361714546, Thread 3811: XXXX 1765361714546, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361714645 XXXX 1765361714645, Thread 3811: XXXX 1765361714645, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361714647 XXXX 1765361714647, Thread 3811: XXXX 1765361714647, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361714746 XXXX 1765361714746, Thread 3811: XXXX 1765361714746, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361714747 XXXX 1765361714747, Thread 3811: XXXX 1765361714747, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361714848 XXXX 1765361714848, Thread 3811: XXXX 1765361714848, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361714849 XXXX 1765361714849, Thread 3811: XXXX 1765361714849, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361714948 XXXX 1765361714948, Thread 3811: XXXX 1765361714948, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361714950 XXXX 1765361714950, Thread 3811: XXXX 1765361714950, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361715050 XXXX 1765361715050, Thread 3811: XXXX 1765361715050, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361715052 XXXX 1765361715052, Thread 3811: XXXX 1765361715052, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361715153 XXXX 1765361715153, Thread 3811: XXXX 1765361715153, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361715154 XXXX 1765361715154, Thread 3811: XXXX 1765361715154, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361715253 XXXX 1765361715253, Thread 3811: XXXX 1765361715253, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361715255 XXXX 1765361715255, Thread 3811: XXXX 1765361715255, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361715354 XXXX 1765361715354, Thread 3811: XXXX 1765361715354, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361715355 XXXX 1765361715355, Thread 3811: XXXX 1765361715355, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361715456 XXXX 1765361715456, Thread 3811: XXXX 1765361715456, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361715457 XXXX 1765361715457, Thread 3811: XXXX 1765361715457, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361715558 XXXX 1765361715558, Thread 3811: XXXX 1765361715558, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361715560 XXXX 1765361715560, Thread 3811: XXXX 1765361715560, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361715660 XXXX 1765361715660, Thread 3811: XXXX 1765361715660, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361715661 XXXX 1765361715661, Thread 3811: XXXX 1765361715661, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361715761 XXXX 1765361715761, Thread 3811: XXXX 1765361715761, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361715762 XXXX 1765361715762, Thread 3811: XXXX 1765361715762, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361715863 XXXX 1765361715863, Thread 3811: XXXX 1765361715863, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361715865 XXXX 1765361715865, Thread 3811: XXXX 1765361715865, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361715965 XXXX 1765361715965, Thread 3811: XXXX 1765361715965, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361715966 XXXX 1765361715966, Thread 3811: XXXX 1765361715966, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361716066 XXXX 1765361716066, Thread 3811: XXXX 1765361716066, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361716069 XXXX 1765361716069, Thread 3811: XXXX 1765361716069, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361716166 XXXX 1765361716166, Thread 3811: XXXX 1765361716166, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361716167 XXXX 1765361716167, Thread 3811: XXXX 1765361716167, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361716267 XXXX 1765361716267, Thread 3811: XXXX 1765361716267, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361716269 XXXX 1765361716269, Thread 3811: XXXX 1765361716269, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361716368 XXXX 1765361716368, Thread 3811: XXXX 1765361716368, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361716369 XXXX 1765361716369, Thread 3811: XXXX 1765361716369, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361716470 XXXX 1765361716470, Thread 3811: XXXX 1765361716470, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361716470 XXXX 1765361716470, Thread 3811: XXXX 1765361716470, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361716571 XXXX 1765361716571, Thread 3811: XXXX 1765361716571, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361716573 XXXX 1765361716573, Thread 3811: XXXX 1765361716573, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361716672 XXXX 1765361716672, Thread 3811: XXXX 1765361716672, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361716674 XXXX 1765361716674, Thread 3811: XXXX 1765361716674, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361716773 XXXX 1765361716773, Thread 3811: XXXX 1765361716773, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361716774 XXXX 1765361716774, Thread 3811: XXXX 1765361716774, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361716874 XXXX 1765361716874, Thread 3811: XXXX 1765361716874, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361716876 XXXX 1765361716876, Thread 3811: XXXX 1765361716876, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361716976 XXXX 1765361716976, Thread 3811: XXXX 1765361716976, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361716977 XXXX 1765361716977, Thread 3811: XXXX 1765361716977, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361717078 XXXX 1765361717078, Thread 3811: XXXX 1765361717078, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361717079 XXXX 1765361717079, Thread 3811: XXXX 1765361717079, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361717179 XXXX 1765361717179, Thread 3811: XXXX 1765361717179, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361717181 XXXX 1765361717181, Thread 3811: XXXX 1765361717181, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361717279 XXXX 1765361717279, Thread 3811: XXXX 1765361717279, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361717280 XXXX 1765361717280, Thread 3811: XXXX 1765361717280, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361717382 XXXX 1765361717382, Thread 3811: XXXX 1765361717382, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361717383 XXXX 1765361717383, Thread 3811: XXXX 1765361717383, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361717483 XXXX 1765361717483, Thread 3811: XXXX 1765361717483, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361717485 XXXX 1765361717485, Thread 3811: XXXX 1765361717485, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361717585 XXXX 1765361717585, Thread 3811: XXXX 1765361717585, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361717587 XXXX 1765361717587, Thread 3811: XXXX 1765361717587, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361717686 XXXX 1765361717686, Thread 3811: XXXX 1765361717686, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361717687 XXXX 1765361717687, Thread 3811: XXXX 1765361717687, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361717786 XXXX 1765361717786, Thread 3811: XXXX 1765361717786, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361717788 XXXX 1765361717788, Thread 3811: XXXX 1765361717788, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361717888 XXXX 1765361717888, Thread 3811: XXXX 1765361717888, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361717890 XXXX 1765361717890, Thread 3811: XXXX 1765361717890, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361717989 XXXX 1765361717989, Thread 3811: XXXX 1765361717989, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361717990 XXXX 1765361717990, Thread 3811: XXXX 1765361717990, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361718090 XXXX 1765361718090, Thread 3811: XXXX 1765361718090, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361718092 XXXX 1765361718092, Thread 3811: XXXX 1765361718092, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361718192 XXXX 1765361718192, Thread 3811: XXXX 1765361718192, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361718194 XXXX 1765361718194, Thread 3811: XXXX 1765361718194, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361718293 XXXX 1765361718293, Thread 3811: XXXX 1765361718293, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361718295 XXXX 1765361718295, Thread 3811: XXXX 1765361718295, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361718395 XXXX 1765361718395, Thread 3811: XXXX 1765361718395, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361718396 XXXX 1765361718396, Thread 3811: XXXX 1765361718396, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361718496 XXXX 1765361718496, Thread 3811: XXXX 1765361718496, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361718498 XXXX 1765361718498, Thread 3811: XXXX 1765361718498, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361718598 XXXX 1765361718598, Thread 3811: XXXX 1765361718598, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361718599 XXXX 1765361718599, Thread 3811: XXXX 1765361718599, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361718699 XXXX 1765361718699, Thread 3811: XXXX 1765361718699, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361718701 XXXX 1765361718701, Thread 3811: XXXX 1765361718701, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361718799 XXXX 1765361718799, Thread 3811: XXXX 1765361718799, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361718801 XXXX 1765361718801, Thread 3811: XXXX 1765361718801, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361718901 XXXX 1765361718901, Thread 3811: XXXX 1765361718901, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361718902 XXXX 1765361718902, Thread 3811: XXXX 1765361718902, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361719003 XXXX 1765361719003, Thread 3811: XXXX 1765361719003, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361719005 XXXX 1765361719005, Thread 3811: XXXX 1765361719005, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361719104 XXXX 1765361719104, Thread 3811: XXXX 1765361719104, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361719105 XXXX 1765361719105, Thread 3811: XXXX 1765361719105, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361719206 XXXX 1765361719206, Thread 3811: XXXX 1765361719206, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361719207 XXXX 1765361719207, Thread 3811: XXXX 1765361719207, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361719306 XXXX 1765361719306, Thread 3811: XXXX 1765361719306, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361719308 XXXX 1765361719308, Thread 3811: XXXX 1765361719308, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361719407 XXXX 1765361719407, Thread 3811: XXXX 1765361719407, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361719409 XXXX 1765361719409, Thread 3811: XXXX 1765361719409, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361719510 XXXX 1765361719510, Thread 3811: XXXX 1765361719510, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361719511 XXXX 1765361719511, Thread 3811: XXXX 1765361719511, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361719610 XXXX 1765361719610, Thread 3811: XXXX 1765361719610, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361719611 XXXX 1765361719611, Thread 3811: XXXX 1765361719611, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361719711 XXXX 1765361719711, Thread 3811: XXXX 1765361719711, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361719713 XXXX 1765361719713, Thread 3811: XXXX 1765361719713, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361719812 XXXX 1765361719812, Thread 3811: XXXX 1765361719812, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361719813 XXXX 1765361719813, Thread 3811: XXXX 1765361719813, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361719914 XXXX 1765361719914, Thread 3811: XXXX 1765361719914, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361719915 XXXX 1765361719915, Thread 3811: XXXX 1765361719915, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361720016 XXXX 1765361720016, Thread 3811: XXXX 1765361720016, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361720017 XXXX 1765361720017, Thread 3811: XXXX 1765361720017, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361720118 XXXX 1765361720118, Thread 3811: XXXX 1765361720118, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361720119 XXXX 1765361720119, Thread 3811: XXXX 1765361720119, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361720220 XXXX 1765361720220, Thread 3811: XXXX 1765361720220, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361720222 XXXX 1765361720222, Thread 3811: XXXX 1765361720222, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361720320 XXXX 1765361720320, Thread 3811: XXXX 1765361720320, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361720321 XXXX 1765361720321, Thread 3811: XXXX 1765361720321, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361720421 XXXX 1765361720421, Thread 3811: XXXX 1765361720421, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361720423 XXXX 1765361720423, Thread 3811: XXXX 1765361720423, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361720522 XXXX 1765361720522, Thread 3811: XXXX 1765361720522, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361720524 XXXX 1765361720524, Thread 3811: XXXX 1765361720524, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361720624 XXXX 1765361720624, Thread 3811: XXXX 1765361720624, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361720625 XXXX 1765361720625, Thread 3811: XXXX 1765361720625, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361720725 XXXX 1765361720725, Thread 3811: XXXX 1765361720725, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361720727 XXXX 1765361720727, Thread 3811: XXXX 1765361720727, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361720826 XXXX 1765361720826, Thread 3811: XXXX 1765361720826, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361720828 XXXX 1765361720828, Thread 3811: XXXX 1765361720828, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361720927 XXXX 1765361720927, Thread 3811: XXXX 1765361720927, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361720929 XXXX 1765361720929, Thread 3811: XXXX 1765361720929, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361721028 XXXX 1765361721028, Thread 3811: XXXX 1765361721028, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361721030 XXXX 1765361721030, Thread 3811: XXXX 1765361721030, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361721129 XXXX 1765361721129, Thread 3811: XXXX 1765361721129, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361721130 XXXX 1765361721130, Thread 3811: XXXX 1765361721130, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361721232 XXXX 1765361721232, Thread 3811: XXXX 1765361721232, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361721233 XXXX 1765361721233, Thread 3811: XXXX 1765361721233, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361721331 XXXX 1765361721331, Thread 3811: XXXX 1765361721331, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361721332 XXXX 1765361721332, Thread 3811: XXXX 1765361721332, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361721432 XXXX 1765361721432, Thread 3811: XXXX 1765361721432, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361721434 XXXX 1765361721434, Thread 3811: XXXX 1765361721434, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361721533 XXXX 1765361721533, Thread 3811: XXXX 1765361721533, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361721534 XXXX 1765361721534, Thread 3811: XXXX 1765361721534, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361721635 XXXX 1765361721635, Thread 3811: XXXX 1765361721635, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361721638 XXXX 1765361721638, Thread 3811: XXXX 1765361721638, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361721736 XXXX 1765361721736, Thread 3811: XXXX 1765361721736, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361721737 XXXX 1765361721737, Thread 3811: XXXX 1765361721737, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361721835 XXXX 1765361721835, Thread 3811: XXXX 1765361721835, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361721837 XXXX 1765361721837, Thread 3811: XXXX 1765361721837, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361721937 XXXX 1765361721937, Thread 3811: XXXX 1765361721937, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361721939 XXXX 1765361721939, Thread 3811: XXXX 1765361721939, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361722038 XXXX 1765361722038, Thread 3811: XXXX 1765361722038, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361722040 XXXX 1765361722040, Thread 3811: XXXX 1765361722040, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361722139 XXXX 1765361722139, Thread 3811: XXXX 1765361722139, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361722140 XXXX 1765361722140, Thread 3811: XXXX 1765361722140, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361722241 XXXX 1765361722241, Thread 3811: XXXX 1765361722241, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361722243 XXXX 1765361722243, Thread 3811: XXXX 1765361722243, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361722341 XXXX 1765361722341, Thread 3811: XXXX 1765361722341, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361722343 XXXX 1765361722343, Thread 3811: XXXX 1765361722343, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361722442 XXXX 1765361722442, Thread 3811: XXXX 1765361722442, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361722443 XXXX 1765361722443, Thread 3811: XXXX 1765361722443, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361722543 XXXX 1765361722543, Thread 3811: XXXX 1765361722543, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361722545 XXXX 1765361722545, Thread 3811: XXXX 1765361722545, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361722644 XXXX 1765361722644, Thread 3811: XXXX 1765361722644, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361722645 XXXX 1765361722645, Thread 3811: XXXX 1765361722645, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361722744 XXXX 1765361722744, Thread 3811: XXXX 1765361722744, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361722746 XXXX 1765361722746, Thread 3811: XXXX 1765361722746, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361722846 XXXX 1765361722846, Thread 3811: XXXX 1765361722846, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361722848 XXXX 1765361722848, Thread 3811: XXXX 1765361722847, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361722948 XXXX 1765361722948, Thread 3811: XXXX 1765361722948, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361722949 XXXX 1765361722949, Thread 3811: XXXX 1765361722949, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361723049 XXXX 1765361723049, Thread 3811: XXXX 1765361723049, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361723050 XXXX 1765361723050, Thread 3811: XXXX 1765361723050, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361723150 XXXX 1765361723150, Thread 3811: XXXX 1765361723150, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361723151 XXXX 1765361723151, Thread 3811: XXXX 1765361723151, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361723249 XXXX 1765361723249, Thread 3811: XXXX 1765361723249, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361723251 XXXX 1765361723251, Thread 3811: XXXX 1765361723251, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361723350 XXXX 1765361723350, Thread 3811: XXXX 1765361723350, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361723352 XXXX 1765361723352, Thread 3811: XXXX 1765361723352, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361723453 XXXX 1765361723453, Thread 3811: XXXX 1765361723453, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361723454 XXXX 1765361723454, Thread 3811: XXXX 1765361723454, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361723554 XXXX 1765361723554, Thread 3811: XXXX 1765361723554, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361723555 XXXX 1765361723555, Thread 3811: XXXX 1765361723555, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361723657 XXXX 1765361723657, Thread 3811: XXXX 1765361723657, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361723659 XXXX 1765361723659, Thread 3811: XXXX 1765361723659, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361723757 XXXX 1765361723757, Thread 3811: XXXX 1765361723757, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361723758 XXXX 1765361723758, Thread 3811: XXXX 1765361723758, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361723859 XXXX 1765361723859, Thread 3811: XXXX 1765361723859, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361723862 XXXX 1765361723862, Thread 3811: XXXX 1765361723862, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361723960 XXXX 1765361723960, Thread 3811: XXXX 1765361723960, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361723961 XXXX 1765361723961, Thread 3811: XXXX 1765361723961, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361724062 XXXX 1765361724062, Thread 3811: XXXX 1765361724062, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361724064 XXXX 1765361724064, Thread 3811: XXXX 1765361724064, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361724163 XXXX 1765361724163, Thread 3811: XXXX 1765361724163, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361724165 XXXX 1765361724165, Thread 3811: XXXX 1765361724165, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361724263 XXXX 1765361724263, Thread 3811: XXXX 1765361724263, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361724265 XXXX 1765361724265, Thread 3811: XXXX 1765361724265, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361724363 XXXX 1765361724363, Thread 3811: XXXX 1765361724363, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361724365 XXXX 1765361724365, Thread 3811: XXXX 1765361724365, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361724465 XXXX 1765361724465, Thread 3811: XXXX 1765361724465, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361724466 XXXX 1765361724466, Thread 3811: XXXX 1765361724466, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361724567 XXXX 1765361724567, Thread 3811: XXXX 1765361724567, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361724569 XXXX 1765361724569, Thread 3811: XXXX 1765361724569, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361724668 XXXX 1765361724668, Thread 3811: XXXX 1765361724668, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361724670 XXXX 1765361724670, Thread 3811: XXXX 1765361724670, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361724768 XXXX 1765361724768, Thread 3811: XXXX 1765361724768, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361724770 XXXX 1765361724770, Thread 3811: XXXX 1765361724770, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361724870 XXXX 1765361724870, Thread 3811: XXXX 1765361724870, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361724872 XXXX 1765361724872, Thread 3811: XXXX 1765361724872, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361724971 XXXX 1765361724971, Thread 3811: XXXX 1765361724971, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361724973 XXXX 1765361724973, Thread 3811: XXXX 1765361724973, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361725073 XXXX 1765361725073, Thread 3811: XXXX 1765361725073, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361725075 XXXX 1765361725075, Thread 3811: XXXX 1765361725075, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361725175 XXXX 1765361725175, Thread 3811: XXXX 1765361725175, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361725176 XXXX 1765361725176, Thread 3811: XXXX 1765361725176, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361725275 XXXX 1765361725275, Thread 3811: XXXX 1765361725275, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361725276 XXXX 1765361725276, Thread 3811: XXXX 1765361725276, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361725377 XXXX 1765361725377, Thread 3811: XXXX 1765361725377, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361725380 XXXX 1765361725380, Thread 3811: XXXX 1765361725380, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361725478 XXXX 1765361725478, Thread 3811: XXXX 1765361725478, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361725480 XXXX 1765361725480, Thread 3811: XXXX 1765361725480, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361725580 XXXX 1765361725580, Thread 3811: XXXX 1765361725580, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361725582 XXXX 1765361725582, Thread 3811: XXXX 1765361725582, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361725681 XXXX 1765361725681, Thread 3811: XXXX 1765361725681, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361725683 XXXX 1765361725683, Thread 3811: XXXX 1765361725683, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361725781 XXXX 1765361725781, Thread 3811: XXXX 1765361725781, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361725782 XXXX 1765361725782, Thread 3811: XXXX 1765361725782, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361725882 XXXX 1765361725882, Thread 3811: XXXX 1765361725882, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361725883 XXXX 1765361725883, Thread 3811: XXXX 1765361725883, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361725983 XXXX 1765361725983, Thread 3811: XXXX 1765361725983, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361725984 XXXX 1765361725984, Thread 3811: XXXX 1765361725984, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361726085 XXXX 1765361726085, Thread 3811: XXXX 1765361726085, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361726087 XXXX 1765361726087, Thread 3811: XXXX 1765361726087, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361726185 XXXX 1765361726185, Thread 3811: XXXX 1765361726185, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361726186 XXXX 1765361726186, Thread 3811: XXXX 1765361726186, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361726285 XXXX 1765361726285, Thread 3811: XXXX 1765361726285, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361726286 XXXX 1765361726286, Thread 3811: XXXX 1765361726286, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361726387 XXXX 1765361726387, Thread 3811: XXXX 1765361726387, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361726389 XXXX 1765361726389, Thread 3811: XXXX 1765361726389, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361726488 XXXX 1765361726488, Thread 3811: XXXX 1765361726488, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361726490 XXXX 1765361726490, Thread 3811: XXXX 1765361726490, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361726589 XXXX 1765361726589, Thread 3811: XXXX 1765361726589, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361726591 XXXX 1765361726591, Thread 3811: XXXX 1765361726591, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361726690 XXXX 1765361726690, Thread 3811: XXXX 1765361726690, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361726691 XXXX 1765361726691, Thread 3811: XXXX 1765361726691, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361726792 XXXX 1765361726792, Thread 3811: XXXX 1765361726792, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361726793 XXXX 1765361726793, Thread 3811: XXXX 1765361726793, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361726893 XXXX 1765361726893, Thread 3811: XXXX 1765361726893, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361726895 XXXX 1765361726895, Thread 3811: XXXX 1765361726895, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361726993 XXXX 1765361726993, Thread 3811: XXXX 1765361726993, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361726994 XXXX 1765361726994, Thread 3811: XXXX 1765361726994, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361727094 XXXX 1765361727094, Thread 3811: XXXX 1765361727094, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361727096 XXXX 1765361727096, Thread 3811: XXXX 1765361727095, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361727195 XXXX 1765361727195, Thread 3811: XXXX 1765361727195, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361727197 XXXX 1765361727197, Thread 3811: XXXX 1765361727197, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361727295 XXXX 1765361727295, Thread 3811: XXXX 1765361727295, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361727296 XXXX 1765361727296, Thread 3811: XXXX 1765361727296, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361727398 XXXX 1765361727398, Thread 3811: XXXX 1765361727398, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361727400 XXXX 1765361727400, Thread 3811: XXXX 1765361727400, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361727500 XXXX 1765361727500, Thread 3811: XXXX 1765361727500, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361727502 XXXX 1765361727502, Thread 3811: XXXX 1765361727502, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361727600 XXXX 1765361727600, Thread 3811: XXXX 1765361727600, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361727603 XXXX 1765361727602, Thread 3811: XXXX 1765361727602, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361727702 XXXX 1765361727702, Thread 3811: XXXX 1765361727702, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361727704 XXXX 1765361727704, Thread 3811: XXXX 1765361727704, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361727802 XXXX 1765361727802, Thread 3811: XXXX 1765361727802, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361727804 XXXX 1765361727804, Thread 3811: XXXX 1765361727804, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361727903 XXXX 1765361727903, Thread 3811: XXXX 1765361727903, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361727904 XXXX 1765361727904, Thread 3811: XXXX 1765361727904, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361728003 XXXX 1765361728003, Thread 3811: XXXX 1765361728003, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361728005 XXXX 1765361728005, Thread 3811: XXXX 1765361728005, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361728106 XXXX 1765361728106, Thread 3811: XXXX 1765361728106, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361728108 XXXX 1765361728108, Thread 3811: XXXX 1765361728108, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361728207 XXXX 1765361728207, Thread 3811: XXXX 1765361728207, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361728208 XXXX 1765361728208, Thread 3811: XXXX 1765361728208, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361728307 XXXX 1765361728307, Thread 3811: XXXX 1765361728307, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361728308 XXXX 1765361728308, Thread 3811: XXXX 1765361728308, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361728409 XXXX 1765361728409, Thread 3811: XXXX 1765361728409, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361728411 XXXX 1765361728411, Thread 3811: XXXX 1765361728411, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361728509 XXXX 1765361728509, Thread 3811: XXXX 1765361728509, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361728512 XXXX 1765361728512, Thread 3811: XXXX 1765361728512, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361728610 XXXX 1765361728610, Thread 3811: XXXX 1765361728610, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361728612 XXXX 1765361728612, Thread 3811: XXXX 1765361728612, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361728711 XXXX 1765361728711, Thread 3811: XXXX 1765361728711, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361728714 XXXX 1765361728714, Thread 3811: XXXX 1765361728714, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361728812 XXXX 1765361728812, Thread 3811: XXXX 1765361728812, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361728813 XXXX 1765361728813, Thread 3811: XXXX 1765361728813, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361728912 XXXX 1765361728912, Thread 3811: XXXX 1765361728912, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361728915 XXXX 1765361728915, Thread 3811: XXXX 1765361728915, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361729013 XXXX 1765361729013, Thread 3811: XXXX 1765361729013, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361729015 XXXX 1765361729015, Thread 3811: XXXX 1765361729015, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361729114 XXXX 1765361729114, Thread 3811: XXXX 1765361729114, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361729115 XXXX 1765361729115, Thread 3811: XXXX 1765361729115, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361729215 XXXX 1765361729215, Thread 3811: XXXX 1765361729215, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361729216 XXXX 1765361729216, Thread 3811: XXXX 1765361729216, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361729315 XXXX 1765361729315, Thread 3811: XXXX 1765361729315, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361729318 XXXX 1765361729318, Thread 3811: XXXX 1765361729318, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361729416 XXXX 1765361729416, Thread 3811: XXXX 1765361729416, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361729417 XXXX 1765361729417, Thread 3811: XXXX 1765361729417, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361729516 XXXX 1765361729516, Thread 3811: XXXX 1765361729516, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361729517 XXXX 1765361729517, Thread 3811: XXXX 1765361729517, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361729618 XXXX 1765361729618, Thread 3811: XXXX 1765361729618, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361729621 XXXX 1765361729621, Thread 3811: XXXX 1765361729621, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361729720 XXXX 1765361729720, Thread 3811: XXXX 1765361729720, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361729721 XXXX 1765361729721, Thread 3811: XXXX 1765361729721, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361729821 XXXX 1765361729821, Thread 3811: XXXX 1765361729821, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361729822 XXXX 1765361729822, Thread 3811: XXXX 1765361729822, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361729923 XXXX 1765361729923, Thread 3811: XXXX 1765361729923, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361729925 XXXX 1765361729925, Thread 3811: XXXX 1765361729925, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361730023 XXXX 1765361730023, Thread 3811: XXXX 1765361730023, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361730026 XXXX 1765361730025, Thread 3811: XXXX 1765361730025, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361730124 XXXX 1765361730124, Thread 3811: XXXX 1765361730124, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361730125 XXXX 1765361730125, Thread 3811: XXXX 1765361730125, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361730226 XXXX 1765361730226, Thread 3811: XXXX 1765361730226, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361730227 XXXX 1765361730227, Thread 3811: XXXX 1765361730227, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361730327 XXXX 1765361730327, Thread 3811: XXXX 1765361730327, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361730328 XXXX 1765361730328, Thread 3811: XXXX 1765361730328, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361730428 XXXX 1765361730428, Thread 3811: XXXX 1765361730428, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361730430 XXXX 1765361730430, Thread 3811: XXXX 1765361730430, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361730528 XXXX 1765361730528, Thread 3811: XXXX 1765361730528, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361730530 XXXX 1765361730530, Thread 3811: XXXX 1765361730530, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361730630 XXXX 1765361730630, Thread 3811: XXXX 1765361730630, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361730632 XXXX 1765361730632, Thread 3811: XXXX 1765361730632, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361730731 XXXX 1765361730731, Thread 3811: XXXX 1765361730731, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361730733 XXXX 1765361730733, Thread 3811: XXXX 1765361730733, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361730831 XXXX 1765361730831, Thread 3811: XXXX 1765361730831, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361730834 XXXX 1765361730834, Thread 3811: XXXX 1765361730834, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361730933 XXXX 1765361730933, Thread 3811: XXXX 1765361730933, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361730934 XXXX 1765361730934, Thread 3811: XXXX 1765361730934, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361731035 XXXX 1765361731035, Thread 3811: XXXX 1765361731035, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361731036 XXXX 1765361731036, Thread 3811: XXXX 1765361731036, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361731135 XXXX 1765361731135, Thread 3811: XXXX 1765361731135, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361731137 XXXX 1765361731137, Thread 3811: XXXX 1765361731137, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361731235 XXXX 1765361731235, Thread 3811: XXXX 1765361731235, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361731237 XXXX 1765361731237, Thread 3811: XXXX 1765361731237, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361731336 XXXX 1765361731336, Thread 3811: XXXX 1765361731336, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361731339 XXXX 1765361731339, Thread 3811: XXXX 1765361731339, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361731438 XXXX 1765361731438, Thread 3811: XXXX 1765361731438, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361731439 XXXX 1765361731439, Thread 3811: XXXX 1765361731439, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361731538 XXXX 1765361731538, Thread 3811: XXXX 1765361731538, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361731540 XXXX 1765361731540, Thread 3811: XXXX 1765361731540, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361731638 XXXX 1765361731638, Thread 3811: XXXX 1765361731638, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361731640 XXXX 1765361731640, Thread 3811: XXXX 1765361731640, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361731740 XXXX 1765361731740, Thread 3811: XXXX 1765361731740, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361731741 XXXX 1765361731741, Thread 3811: XXXX 1765361731741, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361731841 XXXX 1765361731841, Thread 3811: XXXX 1765361731841, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361731844 XXXX 1765361731844, Thread 3811: XXXX 1765361731844, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361731943 XXXX 1765361731943, Thread 3811: XXXX 1765361731943, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361731945 XXXX 1765361731945, Thread 3811: XXXX 1765361731945, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361732043 XXXX 1765361732043, Thread 3811: XXXX 1765361732043, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361732045 XXXX 1765361732045, Thread 3811: XXXX 1765361732045, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361732145 XXXX 1765361732145, Thread 3811: XXXX 1765361732145, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361732147 XXXX 1765361732146, Thread 3811: XXXX 1765361732146, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361732244 XXXX 1765361732244, Thread 3811: XXXX 1765361732244, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361732245 XXXX 1765361732245, Thread 3811: XXXX 1765361732245, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361732346 XXXX 1765361732346, Thread 3811: XXXX 1765361732346, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361732349 XXXX 1765361732349, Thread 3811: XXXX 1765361732349, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361732448 XXXX 1765361732448, Thread 3811: XXXX 1765361732448, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361732450 XXXX 1765361732450, Thread 3811: XXXX 1765361732450, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361732549 XXXX 1765361732549, Thread 3811: XXXX 1765361732549, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361732551 XXXX 1765361732551, Thread 3811: XXXX 1765361732551, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361732649 XXXX 1765361732649, Thread 3811: XXXX 1765361732649, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361732651 XXXX 1765361732651, Thread 3811: XXXX 1765361732651, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361732751 XXXX 1765361732751, Thread 3811: XXXX 1765361732751, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361732753 XXXX 1765361732753, Thread 3811: XXXX 1765361732753, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361732851 XXXX 1765361732851, Thread 3811: XXXX 1765361732851, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361732853 XXXX 1765361732853, Thread 3811: XXXX 1765361732853, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361732952 XXXX 1765361732952, Thread 3811: XXXX 1765361732952, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361732953 XXXX 1765361732953, Thread 3811: XXXX 1765361732953, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361733053 XXXX 1765361733053, Thread 3811: XXXX 1765361733053, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361733056 XXXX 1765361733056, Thread 3811: XXXX 1765361733056, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361733154 XXXX 1765361733154, Thread 3811: XXXX 1765361733154, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361733156 XXXX 1765361733156, Thread 3811: XXXX 1765361733156, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361733256 XXXX 1765361733256, Thread 3811: XXXX 1765361733256, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361733258 XXXX 1765361733258, Thread 3811: XXXX 1765361733258, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361733357 XXXX 1765361733357, Thread 3811: XXXX 1765361733357, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361733359 XXXX 1765361733359, Thread 3811: XXXX 1765361733359, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361733458 XXXX 1765361733458, Thread 3811: XXXX 1765361733458, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361733460 XXXX 1765361733460, Thread 3811: XXXX 1765361733460, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361733559 XXXX 1765361733559, Thread 3811: XXXX 1765361733559, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361733561 XXXX 1765361733561, Thread 3811: XXXX 1765361733561, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361733660 XXXX 1765361733660, Thread 3811: XXXX 1765361733660, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361733662 XXXX 1765361733662, Thread 3811: XXXX 1765361733662, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361733761 XXXX 1765361733761, Thread 3811: XXXX 1765361733761, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361733763 XXXX 1765361733763, Thread 3811: XXXX 1765361733763, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361733862 XXXX 1765361733862, Thread 3811: XXXX 1765361733862, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361733864 XXXX 1765361733864, Thread 3811: XXXX 1765361733864, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361733963 XXXX 1765361733963, Thread 3811: XXXX 1765361733963, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361733965 XXXX 1765361733965, Thread 3811: XXXX 1765361733965, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361734064 XXXX 1765361734064, Thread 3811: XXXX 1765361734064, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361734066 XXXX 1765361734066, Thread 3811: XXXX 1765361734066, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361734166 XXXX 1765361734166, Thread 3811: XXXX 1765361734166, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361734168 XXXX 1765361734168, Thread 3811: XXXX 1765361734168, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361734268 XXXX 1765361734268, Thread 3811: XXXX 1765361734268, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361734270 XXXX 1765361734270, Thread 3811: XXXX 1765361734270, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361734368 XXXX 1765361734368, Thread 3811: XXXX 1765361734368, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361734371 XXXX 1765361734371, Thread 3811: XXXX 1765361734371, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361734470 XXXX 1765361734470, Thread 3811: XXXX 1765361734470, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361734472 XXXX 1765361734472, Thread 3811: XXXX 1765361734472, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361734571 XXXX 1765361734571, Thread 3811: XXXX 1765361734571, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361734573 XXXX 1765361734573, Thread 3811: XXXX 1765361734573, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361734671 XXXX 1765361734671, Thread 3811: XXXX 1765361734671, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361734674 XXXX 1765361734674, Thread 3811: XXXX 1765361734674, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361734772 XXXX 1765361734772, Thread 3811: XXXX 1765361734772, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361734774 XXXX 1765361734774, Thread 3811: XXXX 1765361734774, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361734874 XXXX 1765361734874, Thread 3811: XXXX 1765361734874, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361734876 XXXX 1765361734876, Thread 3811: XXXX 1765361734876, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361734975 XXXX 1765361734975, Thread 3811: XXXX 1765361734975, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361734977 XXXX 1765361734977, Thread 3811: XXXX 1765361734977, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361735076 XXXX 1765361735076, Thread 3811: XXXX 1765361735076, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361735077 XXXX 1765361735077, Thread 3811: XXXX 1765361735077, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361735179 XXXX 1765361735179, Thread 3811: XXXX 1765361735179, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361735180 XXXX 1765361735180, Thread 3811: XXXX 1765361735180, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361735279 XXXX 1765361735279, Thread 3811: XXXX 1765361735279, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361735281 XXXX 1765361735281, Thread 3811: XXXX 1765361735281, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361735380 XXXX 1765361735380, Thread 3811: XXXX 1765361735380, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361735383 XXXX 1765361735383, Thread 3811: XXXX 1765361735383, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361735481 XXXX 1765361735481, Thread 3811: XXXX 1765361735481, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361735483 XXXX 1765361735483, Thread 3811: XXXX 1765361735483, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361735583 XXXX 1765361735583, Thread 3811: XXXX 1765361735583, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361735585 XXXX 1765361735585, Thread 3811: XXXX 1765361735585, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361735684 XXXX 1765361735684, Thread 3811: XXXX 1765361735684, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361735686 XXXX 1765361735686, Thread 3811: XXXX 1765361735686, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361735784 XXXX 1765361735784, Thread 3811: XXXX 1765361735784, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361735785 XXXX 1765361735785, Thread 3811: XXXX 1765361735785, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361735886 XXXX 1765361735886, Thread 3811: XXXX 1765361735886, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361735888 XXXX 1765361735888, Thread 3811: XXXX 1765361735888, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361735987 XXXX 1765361735987, Thread 3811: XXXX 1765361735987, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361735989 XXXX 1765361735989, Thread 3811: XXXX 1765361735989, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361736089 XXXX 1765361736089, Thread 3811: XXXX 1765361736089, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361736091 XXXX 1765361736091, Thread 3811: XXXX 1765361736091, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361736190 XXXX 1765361736190, Thread 3811: XXXX 1765361736190, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361736192 XXXX 1765361736192, Thread 3811: XXXX 1765361736192, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361736291 XXXX 1765361736291, Thread 3811: XXXX 1765361736291, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361736293 XXXX 1765361736293, Thread 3811: XXXX 1765361736293, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361736391 XXXX 1765361736391, Thread 3811: XXXX 1765361736391, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361736393 XXXX 1765361736393, Thread 3811: XXXX 1765361736393, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361736493 XXXX 1765361736493, Thread 3811: XXXX 1765361736493, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361736495 XXXX 1765361736495, Thread 3811: XXXX 1765361736495, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361736594 XXXX 1765361736594, Thread 3811: XXXX 1765361736594, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361736595 XXXX 1765361736595, Thread 3811: XXXX 1765361736595, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361736695 XXXX 1765361736695, Thread 3811: XXXX 1765361736695, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361736697 XXXX 1765361736697, Thread 3811: XXXX 1765361736697, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361736796 XXXX 1765361736796, Thread 3811: XXXX 1765361736796, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361736797 XXXX 1765361736797, Thread 3811: XXXX 1765361736797, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361736897 XXXX 1765361736897, Thread 3811: XXXX 1765361736897, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361736899 XXXX 1765361736899, Thread 3811: XXXX 1765361736899, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361736998 XXXX 1765361736998, Thread 3811: XXXX 1765361736998, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361737000 XXXX 1765361737000, Thread 3811: XXXX 1765361737000, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361737099 XXXX 1765361737099, Thread 3811: XXXX 1765361737099, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361737101 XXXX 1765361737101, Thread 3811: XXXX 1765361737101, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361737200 XXXX 1765361737200, Thread 3811: XXXX 1765361737200, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361737202 XXXX 1765361737202, Thread 3811: XXXX 1765361737202, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361737301 XXXX 1765361737301, Thread 3811: XXXX 1765361737301, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361737303 XXXX 1765361737303, Thread 3811: XXXX 1765361737303, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361737402 XXXX 1765361737402, Thread 3811: XXXX 1765361737402, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361737404 XXXX 1765361737404, Thread 3811: XXXX 1765361737404, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361737503 XXXX 1765361737503, Thread 3811: XXXX 1765361737503, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361737505 XXXX 1765361737505, Thread 3811: XXXX 1765361737505, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361737604 XXXX 1765361737604, Thread 3811: XXXX 1765361737604, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361737606 XXXX 1765361737606, Thread 3811: XXXX 1765361737606, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361737704 XXXX 1765361737704, Thread 3811: XXXX 1765361737704, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361737707 XXXX 1765361737707, Thread 3811: XXXX 1765361737707, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361737806 XXXX 1765361737806, Thread 3811: XXXX 1765361737806, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361737808 XXXX 1765361737808, Thread 3811: XXXX 1765361737808, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361737907 XXXX 1765361737907, Thread 3811: XXXX 1765361737907, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361737909 XXXX 1765361737909, Thread 3811: XXXX 1765361737909, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361738008 XXXX 1765361738008, Thread 3811: XXXX 1765361738008, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361738010 XXXX 1765361738010, Thread 3811: XXXX 1765361738010, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361738108 XXXX 1765361738108, Thread 3811: XXXX 1765361738108, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361738111 XXXX 1765361738111, Thread 3811: XXXX 1765361738111, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361738210 XXXX 1765361738210, Thread 3811: XXXX 1765361738210, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361738211 XXXX 1765361738211, Thread 3811: XXXX 1765361738211, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361738311 XXXX 1765361738311, Thread 3811: XXXX 1765361738311, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361738313 XXXX 1765361738313, Thread 3811: XXXX 1765361738313, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361738413 XXXX 1765361738413, Thread 3811: XXXX 1765361738413, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361738414 XXXX 1765361738414, Thread 3811: XXXX 1765361738414, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361738515 XXXX 1765361738515, Thread 3811: XXXX 1765361738515, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361738517 XXXX 1765361738517, Thread 3811: XXXX 1765361738517, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361738617 XXXX 1765361738617, Thread 3811: XXXX 1765361738617, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361738619 XXXX 1765361738619, Thread 3811: XXXX 1765361738619, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361738719 XXXX 1765361738719, Thread 3811: XXXX 1765361738718, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361738721 XXXX 1765361738721, Thread 3811: XXXX 1765361738721, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361738819 XXXX 1765361738819, Thread 3811: XXXX 1765361738819, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361738821 XXXX 1765361738821, Thread 3811: XXXX 1765361738821, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361738921 XXXX 1765361738921, Thread 3811: XXXX 1765361738921, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361738922 XXXX 1765361738922, Thread 3811: XXXX 1765361738922, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361739021 XXXX 1765361739021, Thread 3811: XXXX 1765361739021, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361739024 XXXX 1765361739024, Thread 3811: XXXX 1765361739024, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361739123 XXXX 1765361739123, Thread 3811: XXXX 1765361739123, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361739125 XXXX 1765361739125, Thread 3811: XXXX 1765361739125, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361739223 XXXX 1765361739223, Thread 3811: XXXX 1765361739223, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361739226 XXXX 1765361739226, Thread 3811: XXXX 1765361739226, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361739325 XXXX 1765361739325, Thread 3811: XXXX 1765361739325, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361739327 XXXX 1765361739327, Thread 3811: XXXX 1765361739327, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361739426 XXXX 1765361739426, Thread 3811: XXXX 1765361739426, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361739428 XXXX 1765361739428, Thread 3811: XXXX 1765361739428, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361739529 XXXX 1765361739529, Thread 3811: XXXX 1765361739529, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361739531 XXXX 1765361739531, Thread 3811: XXXX 1765361739531, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361739631 XXXX 1765361739631, Thread 3811: XXXX 1765361739631, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361739633 XXXX 1765361739633, Thread 3811: XXXX 1765361739633, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361739732 XXXX 1765361739732, Thread 3811: XXXX 1765361739732, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361739734 XXXX 1765361739734, Thread 3811: XXXX 1765361739734, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361739834 XXXX 1765361739834, Thread 3811: XXXX 1765361739834, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361739836 XXXX 1765361739836, Thread 3811: XXXX 1765361739836, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361739935 XXXX 1765361739935, Thread 3811: XXXX 1765361739935, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361739936 XXXX 1765361739936, Thread 3811: XXXX 1765361739936, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361740037 XXXX 1765361740037, Thread 3811: XXXX 1765361740037, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361740039 XXXX 1765361740039, Thread 3811: XXXX 1765361740039, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361740138 XXXX 1765361740138, Thread 3811: XXXX 1765361740138, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361740141 XXXX 1765361740141, Thread 3811: XXXX 1765361740141, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361740240 XXXX 1765361740240, Thread 3811: XXXX 1765361740240, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361740242 XXXX 1765361740242, Thread 3811: XXXX 1765361740242, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361740341 XXXX 1765361740341, Thread 3811: XXXX 1765361740341, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361740343 XXXX 1765361740343, Thread 3811: XXXX 1765361740343, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361740443 XXXX 1765361740443, Thread 3811: XXXX 1765361740443, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361740445 XXXX 1765361740445, Thread 3811: XXXX 1765361740445, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361740543 XXXX 1765361740543, Thread 3811: XXXX 1765361740543, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361740545 XXXX 1765361740545, Thread 3811: XXXX 1765361740545, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361740643 XXXX 1765361740643, Thread 3811: XXXX 1765361740643, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361740646 XXXX 1765361740646, Thread 3811: XXXX 1765361740646, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361740744 XXXX 1765361740744, Thread 3811: XXXX 1765361740744, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361740745 XXXX 1765361740745, Thread 3811: XXXX 1765361740745, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361740846 XXXX 1765361740846, Thread 3811: XXXX 1765361740846, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361740848 XXXX 1765361740848, Thread 3811: XXXX 1765361740848, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361740947 XXXX 1765361740947, Thread 3811: XXXX 1765361740947, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361740949 XXXX 1765361740949, Thread 3811: XXXX 1765361740949, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361741049 XXXX 1765361741049, Thread 3811: XXXX 1765361741049, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361741051 XXXX 1765361741051, Thread 3811: XXXX 1765361741051, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361741150 XXXX 1765361741150, Thread 3811: XXXX 1765361741150, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361741152 XXXX 1765361741152, Thread 3811: XXXX 1765361741152, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361741250 XXXX 1765361741250, Thread 3811: XXXX 1765361741250, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361741251 XXXX 1765361741251, Thread 3811: XXXX 1765361741251, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361741352 XXXX 1765361741352, Thread 3811: XXXX 1765361741352, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361741354 XXXX 1765361741354, Thread 3811: XXXX 1765361741354, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361741455 XXXX 1765361741455, Thread 3811: XXXX 1765361741455, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361741456 XXXX 1765361741456, Thread 3811: XXXX 1765361741456, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361741555 XXXX 1765361741555, Thread 3811: XXXX 1765361741555, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361741556 XXXX 1765361741556, Thread 3811: XXXX 1765361741556, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361741656 XXXX 1765361741656, Thread 3811: XXXX 1765361741656, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361741657 XXXX 1765361741657, Thread 3811: XXXX 1765361741657, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361741758 XXXX 1765361741758, Thread 3811: XXXX 1765361741758, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361741759 XXXX 1765361741759, Thread 3811: XXXX 1765361741759, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361741859 XXXX 1765361741859, Thread 3811: XXXX 1765361741859, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361741860 XXXX 1765361741860, Thread 3811: XXXX 1765361741860, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361741960 XXXX 1765361741960, Thread 3811: XXXX 1765361741960, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361741961 XXXX 1765361741961, Thread 3811: XXXX 1765361741961, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361742061 XXXX 1765361742061, Thread 3811: XXXX 1765361742061, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361742063 XXXX 1765361742063, Thread 3811: XXXX 1765361742063, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361742162 XXXX 1765361742162, Thread 3811: XXXX 1765361742162, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361742164 XXXX 1765361742164, Thread 3811: XXXX 1765361742164, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361742263 XXXX 1765361742263, Thread 3811: XXXX 1765361742263, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361742265 XXXX 1765361742265, Thread 3811: XXXX 1765361742265, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361742365 XXXX 1765361742365, Thread 3811: XXXX 1765361742365, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361742367 XXXX 1765361742367, Thread 3811: XXXX 1765361742367, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361742466 XXXX 1765361742466, Thread 3811: XXXX 1765361742466, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361742468 XXXX 1765361742468, Thread 3811: XXXX 1765361742468, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361742567 XXXX 1765361742567, Thread 3811: XXXX 1765361742567, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361742569 XXXX 1765361742569, Thread 3811: XXXX 1765361742569, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361742668 XXXX 1765361742668, Thread 3811: XXXX 1765361742668, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361742671 XXXX 1765361742671, Thread 3811: XXXX 1765361742671, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361742769 XXXX 1765361742769, Thread 3811: XXXX 1765361742769, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361742770 XXXX 1765361742770, Thread 3811: XXXX 1765361742770, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361742869 XXXX 1765361742869, Thread 3811: XXXX 1765361742869, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361742872 XXXX 1765361742872, Thread 3811: XXXX 1765361742872, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361742971 XXXX 1765361742971, Thread 3811: XXXX 1765361742971, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361742973 XXXX 1765361742973, Thread 3811: XXXX 1765361742973, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361743073 XXXX 1765361743073, Thread 3811: XXXX 1765361743073, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361743075 XXXX 1765361743075, Thread 3811: XXXX 1765361743075, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361743175 XXXX 1765361743175, Thread 3811: XXXX 1765361743175, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361743177 XXXX 1765361743177, Thread 3811: XXXX 1765361743177, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361743275 XXXX 1765361743275, Thread 3811: XXXX 1765361743275, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361743277 XXXX 1765361743277, Thread 3811: XXXX 1765361743277, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361743375 XXXX 1765361743375, Thread 3811: XXXX 1765361743375, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361743377 XXXX 1765361743377, Thread 3811: XXXX 1765361743377, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361743477 XXXX 1765361743477, Thread 3811: XXXX 1765361743477, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361743479 XXXX 1765361743479, Thread 3811: XXXX 1765361743479, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361743578 XXXX 1765361743578, Thread 3811: XXXX 1765361743578, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361743580 XXXX 1765361743580, Thread 3811: XXXX 1765361743580, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361743679 XXXX 1765361743679, Thread 3811: XXXX 1765361743679, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361743681 XXXX 1765361743681, Thread 3811: XXXX 1765361743681, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361743780 XXXX 1765361743780, Thread 3811: XXXX 1765361743780, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361743782 XXXX 1765361743782, Thread 3811: XXXX 1765361743782, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361743880 XXXX 1765361743880, Thread 3811: XXXX 1765361743880, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361743882 XXXX 1765361743882, Thread 3811: XXXX 1765361743882, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361743981 XXXX 1765361743981, Thread 3811: XXXX 1765361743981, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361743983 XXXX 1765361743983, Thread 3811: XXXX 1765361743983, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361744082 XXXX 1765361744082, Thread 3811: XXXX 1765361744082, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361744084 XXXX 1765361744084, Thread 3811: XXXX 1765361744084, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361744183 XXXX 1765361744183, Thread 3811: XXXX 1765361744183, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361744184 XXXX 1765361744184, Thread 3811: XXXX 1765361744184, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361744284 XXXX 1765361744284, Thread 3811: XXXX 1765361744284, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361744286 XXXX 1765361744286, Thread 3811: XXXX 1765361744286, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361744385 XXXX 1765361744385, Thread 3811: XXXX 1765361744385, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361744387 XXXX 1765361744387, Thread 3811: XXXX 1765361744387, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361744486 XXXX 1765361744486, Thread 3811: XXXX 1765361744486, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361744487 XXXX 1765361744487, Thread 3811: XXXX 1765361744487, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361744587 XXXX 1765361744587, Thread 3811: XXXX 1765361744587, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361744589 XXXX 1765361744589, Thread 3811: XXXX 1765361744589, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361744688 XXXX 1765361744688, Thread 3811: XXXX 1765361744688, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361744689 XXXX 1765361744689, Thread 3811: XXXX 1765361744689, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361744789 XXXX 1765361744789, Thread 3811: XXXX 1765361744789, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361744790 XXXX 1765361744790, Thread 3811: XXXX 1765361744790, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361744892 XXXX 1765361744892, Thread 3811: XXXX 1765361744892, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361744894 XXXX 1765361744894, Thread 3811: XXXX 1765361744894, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361744993 XXXX 1765361744993, Thread 3811: XXXX 1765361744993, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361744995 XXXX 1765361744995, Thread 3811: XXXX 1765361744995, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361745095 XXXX 1765361745095, Thread 3811: XXXX 1765361745095, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361745097 XXXX 1765361745097, Thread 3811: XXXX 1765361745097, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361745196 XXXX 1765361745196, Thread 3811: XXXX 1765361745196, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361745197 XXXX 1765361745197, Thread 3811: XXXX 1765361745197, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361745297 XXXX 1765361745297, Thread 3811: XXXX 1765361745297, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361745299 XXXX 1765361745299, Thread 3811: XXXX 1765361745299, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361745398 XXXX 1765361745398, Thread 3811: XXXX 1765361745398, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361745400 XXXX 1765361745400, Thread 3811: XXXX 1765361745400, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361745499 XXXX 1765361745499, Thread 3811: XXXX 1765361745499, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361745501 XXXX 1765361745501, Thread 3811: XXXX 1765361745501, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361745600 XXXX 1765361745600, Thread 3811: XXXX 1765361745600, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361745602 XXXX 1765361745602, Thread 3811: XXXX 1765361745602, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361745701 XXXX 1765361745701, Thread 3811: XXXX 1765361745701, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361745703 XXXX 1765361745703, Thread 3811: XXXX 1765361745703, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361745802 XXXX 1765361745802, Thread 3811: XXXX 1765361745802, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361745803 XXXX 1765361745803, Thread 3811: XXXX 1765361745803, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361745903 XXXX 1765361745903, Thread 3811: XXXX 1765361745903, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361745905 XXXX 1765361745905, Thread 3811: XXXX 1765361745905, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361746003 XXXX 1765361746003, Thread 3811: XXXX 1765361746003, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361746005 XXXX 1765361746005, Thread 3811: XXXX 1765361746005, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361746104 XXXX 1765361746104, Thread 3811: XXXX 1765361746104, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361746106 XXXX 1765361746106, Thread 3811: XXXX 1765361746106, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361746204 XXXX 1765361746204, Thread 3811: XXXX 1765361746204, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361746206 XXXX 1765361746206, Thread 3811: XXXX 1765361746206, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361746305 XXXX 1765361746305, Thread 3811: XXXX 1765361746305, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361746307 XXXX 1765361746307, Thread 3811: XXXX 1765361746307, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361746407 XXXX 1765361746407, Thread 3811: XXXX 1765361746407, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361746409 XXXX 1765361746409, Thread 3811: XXXX 1765361746409, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361746507 XXXX 1765361746507, Thread 3811: XXXX 1765361746507, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361746509 XXXX 1765361746509, Thread 3811: XXXX 1765361746509, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361746610 XXXX 1765361746610, Thread 3811: XXXX 1765361746610, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361746611 XXXX 1765361746611, Thread 3811: XXXX 1765361746611, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361746710 XXXX 1765361746710, Thread 3811: XXXX 1765361746710, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361746712 XXXX 1765361746712, Thread 3811: XXXX 1765361746712, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361746811 XXXX 1765361746811, Thread 3811: XXXX 1765361746811, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361746813 XXXX 1765361746813, Thread 3811: XXXX 1765361746813, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361746912 XXXX 1765361746912, Thread 3811: XXXX 1765361746912, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361746913 XXXX 1765361746913, Thread 3811: XXXX 1765361746913, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361747013 XXXX 1765361747013, Thread 3811: XXXX 1765361747013, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361747015 XXXX 1765361747015, Thread 3811: XXXX 1765361747015, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361747113 XXXX 1765361747113, Thread 3811: XXXX 1765361747113, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361747114 XXXX 1765361747114, Thread 3811: XXXX 1765361747114, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361747213 XXXX 1765361747213, Thread 3811: XXXX 1765361747213, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361747215 XXXX 1765361747215, Thread 3811: XXXX 1765361747215, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361747313 XXXX 1765361747313, Thread 3811: XXXX 1765361747313, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361747315 XXXX 1765361747315, Thread 3811: XXXX 1765361747315, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361747414 XXXX 1765361747414, Thread 3811: XXXX 1765361747414, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361747416 XXXX 1765361747416, Thread 3811: XXXX 1765361747416, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361747515 XXXX 1765361747515, Thread 3811: XXXX 1765361747515, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361747517 XXXX 1765361747517, Thread 3811: XXXX 1765361747517, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361747615 XXXX 1765361747615, Thread 3811: XXXX 1765361747615, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361747617 XXXX 1765361747617, Thread 3811: XXXX 1765361747617, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361747717 XXXX 1765361747717, Thread 3811: XXXX 1765361747717, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361747718 XXXX 1765361747718, Thread 3811: XXXX 1765361747718, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361747818 XXXX 1765361747818, Thread 3811: XXXX 1765361747818, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361747820 XXXX 1765361747820, Thread 3811: XXXX 1765361747820, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361747920 XXXX 1765361747920, Thread 3811: XXXX 1765361747920, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361747922 XXXX 1765361747922, Thread 3811: XXXX 1765361747922, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361748020 XXXX 1765361748020, Thread 3811: XXXX 1765361748020, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361748021 XXXX 1765361748021, Thread 3811: XXXX 1765361748021, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361748122 XXXX 1765361748122, Thread 3811: XXXX 1765361748122, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361748124 XXXX 1765361748124, Thread 3811: XXXX 1765361748124, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361748223 XXXX 1765361748223, Thread 3811: XXXX 1765361748223, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361748225 XXXX 1765361748225, Thread 3811: XXXX 1765361748225, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361748323 XXXX 1765361748323, Thread 3811: XXXX 1765361748323, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361748325 XXXX 1765361748325, Thread 3811: XXXX 1765361748325, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361748424 XXXX 1765361748423, Thread 3811: XXXX 1765361748423, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361748425 XXXX 1765361748425, Thread 3811: XXXX 1765361748425, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361748524 XXXX 1765361748524, Thread 3811: XXXX 1765361748524, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361748526 XXXX 1765361748526, Thread 3811: XXXX 1765361748526, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361748625 XXXX 1765361748625, Thread 3811: XXXX 1765361748625, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361748627 XXXX 1765361748627, Thread 3811: XXXX 1765361748627, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361748726 XXXX 1765361748726, Thread 3811: XXXX 1765361748726, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361748729 XXXX 1765361748729, Thread 3811: XXXX 1765361748729, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361748828 XXXX 1765361748828, Thread 3811: XXXX 1765361748828, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361748830 XXXX 1765361748830, Thread 3811: XXXX 1765361748830, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361748929 XXXX 1765361748929, Thread 3811: XXXX 1765361748929, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361748931 XXXX 1765361748931, Thread 3811: XXXX 1765361748931, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361749030 XXXX 1765361749030, Thread 3811: XXXX 1765361749030, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361749032 XXXX 1765361749032, Thread 3811: XXXX 1765361749032, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361749131 XXXX 1765361749131, Thread 3811: XXXX 1765361749131, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361749133 XXXX 1765361749133, Thread 3811: XXXX 1765361749133, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361749233 XXXX 1765361749233, Thread 3811: XXXX 1765361749233, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361749234 XXXX 1765361749234, Thread 3811: XXXX 1765361749234, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361749332 XXXX 1765361749332, Thread 3811: XXXX 1765361749332, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361749333 XXXX 1765361749333, Thread 3811: XXXX 1765361749333, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361749434 XXXX 1765361749434, Thread 3811: XXXX 1765361749434, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361749436 XXXX 1765361749436, Thread 3811: XXXX 1765361749436, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361749534 XXXX 1765361749534, Thread 3811: XXXX 1765361749534, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361749537 XXXX 1765361749537, Thread 3811: XXXX 1765361749537, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361749635 XXXX 1765361749635, Thread 3811: XXXX 1765361749635, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361749638 XXXX 1765361749638, Thread 3811: XXXX 1765361749638, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361749737 XXXX 1765361749737, Thread 3811: XXXX 1765361749737, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361749739 XXXX 1765361749739, Thread 3811: XXXX 1765361749739, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361749838 XXXX 1765361749838, Thread 3811: XXXX 1765361749838, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361749840 XXXX 1765361749840, Thread 3811: XXXX 1765361749840, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361749939 XXXX 1765361749939, Thread 3811: XXXX 1765361749939, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361749941 XXXX 1765361749941, Thread 3811: XXXX 1765361749941, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361750041 XXXX 1765361750041, Thread 3811: XXXX 1765361750041, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361750043 XXXX 1765361750043, Thread 3811: XXXX 1765361750043, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361750143 XXXX 1765361750143, Thread 3811: XXXX 1765361750143, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361750145 XXXX 1765361750145, Thread 3811: XXXX 1765361750145, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361750244 XXXX 1765361750244, Thread 3811: XXXX 1765361750244, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361750245 XXXX 1765361750245, Thread 3811: XXXX 1765361750245, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361750344 XXXX 1765361750344, Thread 3811: XXXX 1765361750344, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361750345 XXXX 1765361750345, Thread 3811: XXXX 1765361750345, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361750445 XXXX 1765361750445, Thread 3811: XXXX 1765361750445, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361750447 XXXX 1765361750447, Thread 3811: XXXX 1765361750447, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361750546 XXXX 1765361750546, Thread 3811: XXXX 1765361750546, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361750548 XXXX 1765361750548, Thread 3811: XXXX 1765361750548, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361750649 XXXX 1765361750649, Thread 3811: XXXX 1765361750649, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361750651 XXXX 1765361750651, Thread 3811: XXXX 1765361750651, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361750750 XXXX 1765361750750, Thread 3811: XXXX 1765361750750, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361750752 XXXX 1765361750752, Thread 3811: XXXX 1765361750752, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361750850 XXXX 1765361750850, Thread 3811: XXXX 1765361750850, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361750852 XXXX 1765361750852, Thread 3811: XXXX 1765361750852, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361750952 XXXX 1765361750952, Thread 3811: XXXX 1765361750952, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361750954 XXXX 1765361750954, Thread 3811: XXXX 1765361750954, Exiting Thread 3811: Commands::runScriptBasic  
+3811 1765361751053 XXXX 1765361751053, Thread 3811: XXXX 1765361751053, Entering Thread 3811: Commands::runScriptBasic, script name = GetHaltStatus, timeOut = -1 ms  
+3811 1765361751055 XXXX 1765361751055, Thread 3811: com.Send returned false 
+3811 1765361751056 XXXX 1765361751056, Thread 3811: transfer: exception after writeHeaderAndGetResult null 
+3811 1765361751056 XXXX 1765361751056, Thread 3811: XXXX 1765361751056, Entering Thread 3811: ToolCommUsb::recoverFromProtocolError, type = NO_SCRIPT  
+3811 1765361751056 XXXX 1765361751056, Thread 3811: Send Abort Script Engine Command 
+3811 1765361751056 XXXX 1765361751056, Thread 3811: XXXX 1765361751056, Entering Thread 3811: ToolCommUsb::killScriptEngine  
+3811 1765361751057 XXXX 1765361751057, Thread 3811: com.Send returned false 
+3811 1765361751057 XXXX 1765361751057, Thread 3811: Failed sending Abort Script Engine Command. Set nuclear option = true 
+3811 1765361751057 XXXX 1765361751057, Thread 3811: About to nuke 
+3811 1765361751057 XXXX 1765361751057, Thread 3811: XXXX 1765361751057, Entering Thread 3811: ToolCommUsb::nuclearOption  
+3811 1765361751057 XXXX 1765361751057, Thread 3811: com.Send returned false 

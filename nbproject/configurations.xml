@@ -18,7 +18,6 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>LCD.S</itemPath>
-      <itemPath>UART.s</itemPath>
       <itemPath>main.s</itemPath>
       <itemPath>config.s</itemPath>
       <itemPath>ULTRA.s</itemPath>

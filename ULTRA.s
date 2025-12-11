@@ -354,3 +354,4 @@ ultralp1:	decf 	ULTRA_cnt_l, F, A	; no carry when 0x00 -> 0xff
 	bc 	ultralp1		; carry, then loop again
 	return			; carry reset so return
 
+end

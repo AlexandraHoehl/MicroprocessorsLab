@@ -1,8 +1,10 @@
 # Microprocessors
-Repository for Physics Year 3 microprocessors lab
+Repository for Physics Year 3 microprocessors lab project
 
-A simple assembly program for PIC18 microprocessor
+An assembly program for PIC18 microprocessor
 
-Reads a table (message) from programme memory to data memory
+Software for Multi-Purpose Ultrasonic Range Finder
 
-Initialises UART and writes a message (the table) to UART 
+Uses HCSR04 to implement 4 modes: continuous/single shot distance measurement, proximity sensing and motion detection
+
+

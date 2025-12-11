@@ -1,6 +1,6 @@
 #include <xc.inc>
 
-global  LCD_Setup, LCD_Write_Message, LCD_Write_Hex, LCD_Clear, LCD_Write_Distance, LCD_Max_Message, LCD_Mode_Error
+global  LCD_Setup, LCD_Write_Message, LCD_Clear, LCD_Write_Distance, LCD_Max_Message, LCD_Mode_Error
 extrn	DIST1, DIST2, DIST3, DIST4, DIST5, DIST6, DIST7
 
 

@@ -1,26 +1,10 @@
 #include <xc.inc>
 
-extrn	UART_Setup, UART_Transmit_Message  ; external uart subroutines
-extrn	LCD_Setup, LCD_Write_Message, LCD_Write_Hex, LCD_Clear, LCD_Write_Distance, LCD_Max_Message, LCD_Mode_Error ; external LCD subroutines
+extrn	LCD_Setup, LCD_Write_Message, LCD_Clear, LCD_Write_Distance, LCD_Max_Message, LCD_Mode_Error ; external LCD subroutines
 extrn	ADC_Setup, ADC_Read, ADC_Convert		   ; external ADC subroutines
 extrn	ULTRA_Setup, ULTRA_Pulse, ULTRA_Measure, ULTRA_Dist_Convert, ULTRA_delay_ms, High_ISR, ULTRA_Hex_Time_to_Dist, ULTRA_Motion_Detect
 extrn	DIST1, DIST2, DIST3, DIST4, DIST5, DIST6, DIST7, deltat_H, deltat_L
 extrn	LED_Setup, LED_Logic
-	
-psect	udata_acs   ; reserve data space in access ram
-counter:    ds 1    ; reserve one byte for a counter variable
-delay_count:ds 1    ; reserve one byte for counter in the delay routine
-    
-psect	udata_bank4 ; reserve data anywhere in RAM (here at 0x400)
-myArray:    ds 0x80 ; reserve 128 bytes for message data
-
-psect	data    
-	; ******* myTable, data in programme memory, and its length *****
-myTable:
-	db	'M','a','x',' ','d','i','s','t','.','>', 0x0a
-					; message, plus carriage return
-	myTable_l   EQU	10	; length of data
-	align	2
     
 psect	code, abs	
 rst: 	org 0x0
@@ -135,44 +119,5 @@ Distance_sish_mode_start: ; single shot mode
 	btfss	PORTD, 1
 	goto	sish_wait_loop
 	goto	Distance_sish_mode_start
-	
-/*
-	; ******* Main programme ****************************************
-start: 	lfsr	0, myArray	; Load FSR0 with address in RAM	
-	movlw	low highword(myTable)	; address of data in PM
-	movwf	TBLPTRU, A		; load upper bits to TBLPTRU
-	movlw	high(myTable)	; address of data in PM
-	movwf	TBLPTRH, A		; load high byte to TBLPTRH
-	movlw	low(myTable)	; address of data in PM
-	movwf	TBLPTRL, A		; load low byte to TBLPTRL
-	movlw	myTable_l	; bytes to read
-	movwf 	counter, A		; our counter register
-loop: 	tblrd*+			; one byte from PM to TABLAT, increment TBLPRT
-	movff	TABLAT, POSTINC0; move data from TABLAT to (FSR0), inc FSR0	
-	decfsz	counter, A		; count down to zero
-	bra	loop		; keep going until finished
-		
-	movlw	myTable_l	; output message to UART
-	lfsr	2, myArray
-	call	UART_Transmit_Message
-
-	movlw	myTable_l-1	; output message to LCD
-				; don't send the final carriage return to LCD
-	lfsr	2, myArray
-	call	LCD_Write_Message
-	
-measure_loop:
-	call	ADC_Read
-	call	ADC_Convert
-	movf	ADRESH, W, A
-	call	LCD_Write_Hex
-	movf	ADRESL, W, A
-	call	LCD_Write_Hex
-	goto	measure_loop		; goto current line in code
-*/
-	; a delay subroutine if you need one, times around loop in delay_count
-delay:	decfsz	delay_count, A	; decrement until zero
-	bra	delay
-	return
 
 	end	rst

@@ -113,8 +113,8 @@ Distance_cont_mode_start:
 	btfss	PIR1, 0
 	call	LCD_Write_Distance
 	
-	movlw	0xFF
-	call	ULTRA_delay_ms
+	;movlw	0xFF
+	;call	ULTRA_delay_ms ; use if you wanna slow the display down
 	   
 	goto Distance_cont_mode_start
 	
@@ -131,8 +131,6 @@ Distance_sish_mode_start: ; single shot mode
 	btfss	PIR1, 0
 	call	LCD_Write_Distance
 	
-	movlw	0xFF
-	call	ULTRA_delay_ms
     sish_wait_loop:	; poll button on RD1 and skip out back to measurement start if button pressed
 	btfss	PORTD, 1
 	goto	sish_wait_loop

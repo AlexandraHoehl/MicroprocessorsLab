@@ -118,8 +118,8 @@ ULTRA_Measure:
     bcf	    CCP6IF, A	    ; clear interrupt flag to be safe
     bsf	    GIE, A	    ; enable global interrupt
     ; wait for echo
-    movlw   100
-    call    ULTRA_delay_ms  ; delay for 100 ms
+    movlw   65
+    call    ULTRA_delay_ms  ; delay for > 60 ms
     
     /*
     read time between send and receive:

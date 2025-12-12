@@ -5,6 +5,7 @@ extrn	ADC_Setup, ADC_Read, ADC_Convert		   ; external ADC subroutines
 extrn	ULTRA_Setup, ULTRA_Pulse, ULTRA_Measure, ULTRA_Dist_Convert, ULTRA_delay_ms, High_ISR, ULTRA_Hex_Time_to_Dist, ULTRA_Motion_Detect
 extrn	DIST1, DIST2, DIST3, DIST4, DIST5, DIST6, DIST7, deltat_H, deltat_L
 extrn	LED_Setup, LED_Logic
+extrn	t2H, t2L, TEMP
     
 psect	code, abs	
 rst: 	org 0x0
@@ -81,8 +82,13 @@ Proximity_mode_start:
     goto    Proximity_mode_loop
 
 Motion_mode_start:
+    ;take initial reference reading
+    call    ULTRA_Pulse
+    call    ULTRA_Measure
+    movff    t2H, TEMP, A
+    motion_loop:
     call    ULTRA_Motion_Detect
-    goto    Motion_mode_start
+    goto    motion_loop
     
 Distance_cont_mode_start:	
 	call	ULTRA_Pulse

@@ -4,7 +4,7 @@
 #include <xc.inc>
     
 global ULTRA_Setup, ULTRA_Pulse, ULTRA_Measure, ULTRA_Hex_Time_to_Dist, ULTRA_Dist_Convert, ULTRA_delay_ms, High_ISR, ULTRA_Motion_Detect
-global t2L, t2H
+global t2L, t2H, TEMP
 global DIST1, DIST2, DIST3, DIST4, DIST5, DIST6, DIST7
     
 psect	udata_acs	    ; named variables in access ram
@@ -304,27 +304,31 @@ ULTRA_Dist_Convert:
 	
 ULTRA_Motion_Detect:
     ; detect change in t2 that would indicate motion
-    ;take initial reading
-    call    ULTRA_Pulse
-    call    ULTRA_Measure
-    movff    t2H, TEMP, A
-    ; take next reading
+    ; take comparison reading
     call    ULTRA_Pulse
     call    ULTRA_Measure
     movf    t2H, W, A
-    ; is second reading different to first reading?
+    ; check: is second reading different to first reading?
     cpfseq  TEMP
     call    motion_detected
     goto    ULTRA_Motion_Detect
     
 motion_detected:
     ; flag that motion has been detected
-    bsf	    LATD, 0 ; turn on buzzer
+    bsf	    LATD, 0		; turn on buzzer
     goto    detect_loop
 detect_loop:
-    btfss   PORTD, 1    ; if the button is pressed, PORTD0 is pulled up - stop buzzing
+    btfss   PORTD, 1		; if the button is pressed, PORTD0 is pulled up - stop buzzing
     goto    detect_loop
-    bcf	    LATD, 0	; stop buzzing even if button released; reset
+    bcf	    LATD, 0		; stop buzzing even if button released; reset
+    goto    reference_loop
+reference_loop:
+    ; set reference reading
+    call    ULTRA_Pulse
+    call    ULTRA_Measure
+    movff   t2H, TEMP, A
+    btfsc   PORTD, 1		; keep taking reference readings as long as button is pressed, stop when button is released
+    goto    reference_loop
     return
     
     

@@ -106,11 +106,11 @@ LCD_Write_Distance:
 LCD_Max_Message:
     movlw   '>'
     call    LCD_Send_Byte_D
-    movlw   '6'
+    movlw   '5'
     call    LCD_Send_Byte_D
     movlw   '.'
     call    LCD_Send_Byte_D
-    movlw   '5'
+    movlw   '6'
     call    LCD_Send_Byte_D
     movlw   'm'
     call    LCD_Send_Byte_D
